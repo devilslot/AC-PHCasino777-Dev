@@ -1,5 +1,10 @@
 <?php
+
 session_start();
+
+
+require_once 'dbmodel.php';
+require_once 'function.php';
 
 $site = include(__DIR__ . '/config/site.php');
 $pg = include(__DIR__ . '/config/pg.php');
@@ -7,6 +12,9 @@ $pg = include(__DIR__ . '/config/pg.php');
 include(__DIR__ . "/captcha/simple-php-captcha.php");
 //require_once __DIR__ . '/captcha/simple-php-captcha.php"';
 $_SESSION['captcha'] = simple_php_captcha();
+
+$bank_list = $mysqli->query("SELECT * FROM master_bank ORDER BY id");
+$num_row = mysqli_num_rows($bank_list);
 
 ?>
 
@@ -98,29 +106,11 @@ $_SESSION['captcha'] = simple_php_captcha();
                     <div class="form-group">
                         <label for="banktype">ธนาคาร</label>
                         <select class="form__input form__input--2" id="bankcode"  name="bankcode">
-                            <option value="000">ไทยพาณิชย์</option>
-                            <option value="002">กรุงเทพ</option>
-                            <option value="004">กสิกรไทย</option>
-                            <option value="006">กรุงไทย</option>
-                            <option value="034">ธกส</option>
-                            <option value="011">ทหารไทย</option>
-                            <option value="070">ไอซีบีซี</option>
-                            <option value="071">ไทยเครดิต</option>
-                            <option value="017">ซิตี้แบงก์</option>
-                            <option value="018">ซูมิโตโม มิตซุย</option>
-                            <option value="020">สแตนดาร์ดชาร์เต</option>
-                            <option value="022">ซีไอเอ็มบี</option>
-                            <option value="024">ยูโอบี</option>
-                            <option value="025">กรุงศรีฯ</option>
-                            <option value="030">ออมสิน</option>
-                            <option value="031">เอชเอสบีซี</option>
-                            <option value="039">มิซูโฮ</option>
-                            <option value="033">ธอส.</option>
-                            <option value="073">แลนด์แอนด์เฮ้าส</option>
-                            <option value="065">ธนชาต</option>
-                            <option value="067">ทิสโก้</option>
-                            <option value="069">เกียรตินาคิน</option>
-                            <option value="066">อิสลาม</option>
+                            <?php
+                                foreach ($bank_list as $row) {
+                                    echo '<option value="' . $row['bank_code'] . '">' . $row['short_name'] . '</option>';
+                                }
+                            ?>
                         </select>
                     </div>
                     <div class="form-group">
@@ -144,18 +134,9 @@ $_SESSION['captcha'] = simple_php_captcha();
     <!-- ************************* JS Files ************************* -->
 
     <?php
-    include(dirname(__FILE__) . '/include/footer_js.php');
+    include(__DIR__ . '/include/footer_js.php');
     ?>
 
-    <script type="text/javascript">
-        $("#login_form").submit(function(e) {
-            e.preventDefault();
-            $.post('/exec/login', $(this).serialize(), function(data) {
-                $("#results").html(data)
-            });
-            return false;
-        });
-    </script>
     <script>
         $("#register_form").submit(function(e) {
             //sayHi();

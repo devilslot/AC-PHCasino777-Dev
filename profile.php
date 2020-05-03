@@ -8,7 +8,7 @@ require_once 'function.php';
 
 $site = include(__DIR__ . '/config/site.php');
 $pg = include(__DIR__ . '/config/pg.php');
-include(__DIR__.'/checklogin.php');
+include(__DIR__ . '/checklogin.php');
 
 $data_members = $mysqli->query("SELECT * FROM members WHERE member_login = '" . $_SESSION['member_login'] . "'")->fetch_assoc();
 
@@ -18,6 +18,7 @@ if (count($data_members) > 0) {
     exit();
 }
 $_SESSION['level'] = $data_members['member_level'];
+$_SESSION['member_no'] = $data_members['member_no'];
 
 $web_lobby_url = "";
 $web_lobby_url .= $pg['web_lobby'];
@@ -43,8 +44,10 @@ $total_wallet = $data_member_wallet['main_wallet'] + $data_member_wallet['bonus_
 
 <body>
     <!-- Header -->
-    <button onclick="window.location.href='<?= $web_lobby_url ?>';">เข้าสู่ระบบ1</button><BR>
-    <button onclick="window.open('<?= $web_lobby_url ?>','_blank');">เข้าสู่ระบบ2</button><BR>
+    <button onclick="window.location.href='<?php echo $site['host'] . '/logout' ?>';">ออกจากระบบ</button>
+    <button onclick="window.open('<?php echo $site['host'] . '/trial-lobby' ?>','_blank');">ทางเข้าเล่น</button>
+    <button onclick="window.location.href='<?php echo $site['host'] . '/promo' ?>';">โปรโมชั่น</button>
+    <BR>
 
     <!-- Main -->
     <main class="main">
@@ -108,69 +111,39 @@ $total_wallet = $data_member_wallet['main_wallet'] + $data_member_wallet['bonus_
                                     <span class="input-group-text"><img src="./assets/images/bank.png" alt=""></span>
                                 </div>
                                 <span class="form-control">ธนาคาร :</span>
-                                <input type="text" class="form-control" value="<?php echo bank_name($data_members['member_bank_type']); ?>" disabled>
+                                <input type="text" class="form-control" value="<?php echo bank_name($data_members['member_bank_name']); ?>" disabled>
                             </div>
                         </form>
                     </div>
                     <div class="transaction card-body">
                         <h3 class="card-title">ลิงค์แนะนำเพื่อน</h3> <?= $site['host'] ?>/aff?<?= $_SESSION['member_login'] ?>
                     </div>
-                    <div class="transaction card-body">
-                        <h3 class="card-title">โปรโมชั่น</h3> <?= $site['host'] ?>/aff?<?= $_SESSION['member_login'] ?>
-                    </div>
-                    <!--
-                    <div class="transaction card-body">
-                        <h3 class="card-title">ประวัติการทำรายการ 7 วันล่าสุด</h3>
-                        <form action="/" class="card card-body card-form p-lg-5">
-                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="pills-deposit-tab" data-toggle="pill" href="#pills-deposit" role="tab" aria-controls="pills-deposit" aria-selected="true">ฝากเงิน</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="pills-withdraw-tab" data-toggle="pill" href="#pills-withdraw" role="tab" aria-controls="pills-withdraw" aria-selected="false">ถอนเงิน</a>
-                                </li>
-                            </ul>
-
-                            <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade active show" id="pills-deposit" role="tabpanel" aria-labelledby="pills-deposit-tab">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr style="color:#495057">
-                                                    <th>วัน-เวลา</th>
-                                                    <th>จำนวน</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <?php
-                                                $date = date('Y-m-d');
-                                                $query = $mysqli->query("SELECT `topup_amount`,`topup_datetime` FROM `slot_topup` 
-                                                    WHERE `topup_username` = '" . $_SESSION['username'] . "' AND `topup_type` IN ('promptpay','wallet') AND `topup_datetime` > DATE('" . $date . "') - INTERVAL 7 DAY ORDER BY topup_datetime DESC");
-                                                while ($result = $query->fetch_assoc()) { ?>
-                                                    <tr>
-                                                        <td style="color:#495057">
-                                                            <?php echo $result['topup_datetime']; ?>
-                                                        </td>
-                                                        <td style="color:#495057">
-                                                            <?php echo $result['topup_amount']; ?>
-                                                        </td>
-                                                    </tr>
-                                                <?php } ?>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
-                    -->
                 </div>
             </div>
         </section>
 
 
     </main>
+
+    <!-- JS -->
+    <?php
+    include(__DIR__ . '/include/footer_js.php');
+    ?>
+
+
+    <script src="/util/utility.js"></script>
+
+    <script>
+        $("#register_form").submit(function(e) {
+            e.preventDefault();
+            $.post('/exec/register.php', $(this).serialize(), function(data) {
+                $("#alerts").html(data)
+            });
+            return false;
+        });
+    </script>
+
+
     <script>
         function passwordToggle() {
             var x = document.getElementById("passwordInput");
@@ -182,15 +155,8 @@ $total_wallet = $data_member_wallet['main_wallet'] + $data_member_wallet['bonus_
         }
     </script>
 
-    <!-- Footer -->
-    <?php
-    //include(__DIR__ . '/include/menu_footer.php');
-    ?>
 
-    <!-- JS -->
-    <?php
-    include(__DIR__ . '/include/footer_js.php');
-    ?>
+
 </body>
 
 </html>

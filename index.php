@@ -1,6 +1,10 @@
 <?php
+
+session_start();
+
 $site = include(__DIR__ . '/config/site.php');
 $pg = include(__DIR__ . '/config/pg.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -796,6 +800,8 @@ $pg = include(__DIR__ . '/config/pg.php');
             </div>
         </div>
 
+        <div id="alerts"></div>
+
         <div class="x-modal modal" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true" data-loading-container=".js-modal-content" data-ajax-modal-always-reload="true">
             <div class="modal-dialog -modal-size " role="document">
                 <div class="modal-content -modal-content">
@@ -812,7 +818,7 @@ $pg = include(__DIR__ . '/config/pg.php');
                     <div class="modal-body">
                         <div class="x-login-form">
                             <div data-animatable="fadeInModal" data-offset="0" class="-animatable-container">
-                                <form action="/login-json-check" class="js-login-form x-header-login-form">
+                                <form method="POST" id="login_form"> <!-- class="js-login-form x-header-login-form"> -->
                                     <div class="-x-input-icon mb-3 flex-column">
                                         <img src="/build/web/all-casino/img/ic_phone.png" class="-icon" alt="login" width="12">
                                         <input type="text" id="username" name="username" pattern="[0-9]*" autofocus class="form-control x-form-control" placeholder="เบอร์โทรศัพท์">
@@ -826,7 +832,6 @@ $pg = include(__DIR__ . '/config/pg.php');
                                             <u>ลืมรหัสผ่าน</u>
                                         </a>
                                     </div>
-
                                     <div class="text-center">
                                         <button type="submit" class="btn btn-primary -submit my-lg-3 my-0 f-5 f-lg-6">
                                             <span>เข้าสู่ระบบ</span>
@@ -895,6 +900,18 @@ $pg = include(__DIR__ . '/config/pg.php');
         </script>
         -->
     </div>
+    <?php
+     include(__DIR__ . '/include/footer_js.php');
+    ?>
+    <script>
+        $("#login_form").submit(function(e) {
+            e.preventDefault();
+            $.post('/exec/login.php', $(this).serialize(), function(data) {
+                $("#alerts").html(data)
+            });
+            return false;
+        });
+    </script>
     <script>
         Bonn.boots.push(function() {
             $('.js-simple-play-sidebar').click(function(e) {

@@ -1,0 +1,225 @@
+[06-Apr-2020 13:34:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 20:34:28 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 20:34:28 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 20:34:28 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 13:48:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 20:48:07 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 20:48:07 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 20:48:07 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 14:09:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 14:12:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 14:13:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined index: wallet_phone in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 21:13:45 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 14:14:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined index: wallet_phone in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[06-Apr-2020 21:14:39 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 17:58:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 17:59:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined index: wallet_phone in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 00:59:53 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 18:01:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined index: wallet_phone in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:01:11 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 18:01:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:01:51 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 18:01:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:01:55 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 18:04:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 01:04:03 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 01:04:03 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 01:04:03 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:04:03 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:04:03 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 01:04:03 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 01:04:04 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 01:04:04 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:04:04 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 01:04:04 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 19:09:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:09:10 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 19:09:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:09:58 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 19:10:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 02:10:33 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 02:10:33 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 02:10:33 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:10:33 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:10:33 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:10:33 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 02:10:33 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Truewallet::getTransactions(), 1 passed in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29 and exactly 2 expected in /home/uak15yg03bsm/public_html/office69/class/truewallet.class.php:87
+Stack trace:
+#0 /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php(29): Truewallet->getTransactions(NULL)
+#1 {main}
+  thrown in /home/uak15yg03bsm/public_html/office69/class/truewallet.class.php on line 87
+[06-Apr-2020 19:10:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 02:10:36 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 02:10:36 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 02:10:36 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:10:36 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:10:36 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:10:36 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 02:10:36 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Truewallet::getTransactions(), 1 passed in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29 and exactly 2 expected in /home/uak15yg03bsm/public_html/office69/class/truewallet.class.php:87
+Stack trace:
+#0 /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php(29): Truewallet->getTransactions(NULL)
+#1 {main}
+  thrown in /home/uak15yg03bsm/public_html/office69/class/truewallet.class.php on line 87
+[06-Apr-2020 19:11:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:11:11 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 19:12:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 02:12:31 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 02:12:31 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 02:12:31 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:12:31 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:12:31 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:12:31 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 02:12:32 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 02:12:32 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:12:32 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:12:32 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 19:12:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined variable: _get in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 67
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 77
+[07-Apr-2020 02:12:51 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 19:14:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 13:50:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 13:52:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 13:54:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 13:54:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 65
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 75
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 75
+[07-Apr-2020 20:54:18 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[07-Apr-2020 13:55:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 25
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 27
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 29
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 65
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 75
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 75
+[07-Apr-2020 20:55:54 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[07-Apr-2020 14:03:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 26
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 28
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 28
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 28
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 30
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 66
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 76
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 76
+[07-Apr-2020 21:03:50 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[07-Apr-2020 14:03:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined index: username in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 21
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined index: id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 26
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined index: wallet_show in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 28
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined index: wallet_pass in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 28
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined index: wallet_access in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 28
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 30
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined index: report_id in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 66
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined offset: 2 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 76
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/uak15yg03bsm/public_html/office69/wallet/api/use_wallet.php on line 76
+[07-Apr-2020 21:03:53 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[07-Apr-2020 14:04:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:05:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:06:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:08:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:10:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:12:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:14:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:15:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:30:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 14:33:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3

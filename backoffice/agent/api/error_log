@@ -1,0 +1,749 @@
+[05-Apr-2020 21:05:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 21:05:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 21:05:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 21:05:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 21:05:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 21:05:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 04:05:50 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[06-Apr-2020 04:05:50 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[05-Apr-2020 22:46:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:47:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:48:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 05:48:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_return.php on line 22
+[05-Apr-2020 22:48:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:52:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:52:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:53:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:53:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:53:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:55:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 22:56:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 23:00:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 06:00:18 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_return.php on line 22
+[05-Apr-2020 23:12:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 23:14:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 23:47:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 06:47:40 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_return.php on line 22
+[05-Apr-2020 23:48:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 23:48:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 23:48:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[05-Apr-2020 23:59:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:00:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:00:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:00:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:00:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:00:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:00:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:01:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:01:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:01:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[06-Apr-2020 00:01:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 10:14:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 17:14:19 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 17:14:19 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 10:14:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 10:14:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 17:14:46 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 17:14:46 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 15:52:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:52:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:53:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 22:53:11 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 22:53:11 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 15:53:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:53:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:53:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:54:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 22:54:12 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 22:54:12 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 15:54:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:55:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:56:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 22:56:16 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 22:56:16 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 15:56:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:56:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:57:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 15:58:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 16:04:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 16:04:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 16:57:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[07-Apr-2020 23:57:09 Asia/Bangkok] PHP Notice:  Undefined index: bonus in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 12
+[07-Apr-2020 23:57:09 Asia/Bangkok] PHP Notice:  Undefined index: amount in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 23:57:09 Asia/Bangkok] PHP Notice:  Undefined index: amount in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 23:57:09 Asia/Bangkok] PHP Notice:  Undefined index: bonus_percent in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 23:57:09 Asia/Bangkok] PHP Notice:  Undefined index: bonus_plus in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 13
+[07-Apr-2020 23:57:09 Asia/Bangkok] PHP Notice:  Undefined index: bonus_turnover in /home/uak15yg03bsm/public_html/office69/agent/api/show_add_credit.php on line 14
+[08-Apr-2020 13:30:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[12-Apr-2020 07:13:39 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:13:49 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:13:59 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:14:09 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:14:12 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:14:22 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:14:32 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:14:42 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:14:53 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:15:03 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:15:13 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:15:23 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:15:33 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:15:43 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:15:53 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:16:03 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:16:12 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:16:16 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:16:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:16:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:16:47 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:16:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:17:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:17:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:19:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:19:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:19:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:19:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:19:47 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:19:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:20:07 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:20:17 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:20:27 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:20:37 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:20:48 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:20:57 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:21:07 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:21:17 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:21:27 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:21:37 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:21:47 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:21:57 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:22:06 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:22:17 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 104
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_datetime in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 110
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: member_name in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 120
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: member_surname in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 120
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_number in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 124
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_type in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 124
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_number in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_type in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:22:27 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 104
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_datetime in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 110
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: member_name in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 120
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: member_surname in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 120
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_number in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 124
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_type in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 124
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_number in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: member_bank_type in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:22:37 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_datetime in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 110
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:22:47 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_datetime in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 110
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:22:57 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_datetime in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 110
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:23:06 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_datetime in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 110
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:23:16 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:23:26 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_username in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 114
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:23:36 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:23:46 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:23:46 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:46 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:46 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:23:46 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:23:46 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:23:46 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:23:56 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:23:56 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:56 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:23:56 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:23:56 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:23:56 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:23:56 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:24:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:24:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:24:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:24:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:24:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:24:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 118
+[12-Apr-2020 07:24:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:24:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:24:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:24:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:24:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:24:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:24:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:24:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:24:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:24:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:24:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:24:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:24:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:24:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:24:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:24:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:24:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:24:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:24:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:24:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:24:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:25:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:25:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:25:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:25:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:25:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:25:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:25:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:25:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:25:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:25:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:25:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:25:25 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:25:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:25:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:25:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:25:35 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:25:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 139
+[12-Apr-2020 07:25:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:25:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 151
+[12-Apr-2020 07:25:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 157
+[12-Apr-2020 07:25:45 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 171
+[12-Apr-2020 07:25:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:25:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:25:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:25:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:25:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:25:55 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:26:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:26:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:26:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:26:05 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:26:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:26:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:26:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:26:15 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:26:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:26:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:26:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:26:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:26:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:26:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:26:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:26:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:26:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:26:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:26:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:26:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:26:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:26:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:26:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:26:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:26:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:27:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:27:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:27:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:27:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:27:11 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:11 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:11 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:27:11 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:27:11 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:27:11 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:27:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:27:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:27:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:27:21 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:27:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:27:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:27:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:27:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:27:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:27:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:27:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:27:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:27:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:27:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:27:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:27:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:27:53 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:53 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:27:53 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:27:53 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:27:53 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:27:53 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:28:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:28:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:28:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:28:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:28:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:28:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:28:14 Asia/Bangkok] PHP Notice:  Undefined index: wd_amount in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:28:14 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:28:14 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 141
+[12-Apr-2020 07:28:14 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:28:14 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 153
+[12-Apr-2020 07:28:14 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 167
+[12-Apr-2020 07:28:23 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:28:23 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 134
+[12-Apr-2020 07:28:23 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 148
+[12-Apr-2020 07:28:23 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:28:23 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 134
+[12-Apr-2020 07:28:23 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 144
+[12-Apr-2020 07:28:33 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:28:33 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 134
+[12-Apr-2020 07:28:33 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 144
+[12-Apr-2020 07:28:38 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:28:38 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:28:38 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:28:40 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:28:40 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 136
+[12-Apr-2020 07:28:40 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 146
+[12-Apr-2020 07:28:50 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:28:50 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:28:50 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:28:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:28:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:28:51 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:29:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:29:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:29:01 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:29:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:29:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:29:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:29:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:29:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:29:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:29:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:29:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:29:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:29:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:29:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:29:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:29:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:29:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:29:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:30:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:30:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:30:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:30:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:30:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:30:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:30:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:30:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:30:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:30:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:30:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:30:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:30:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:30:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:30:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:30:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:30:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:30:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:31:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:31:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:31:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:31:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:31:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:31:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:31:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:31:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:31:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:31:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:31:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:31:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:31:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:31:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:31:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:31:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:31:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:31:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:32:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:32:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:32:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:32:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:32:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:32:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:32:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:32:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:32:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:32:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:32:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:32:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:32:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:32:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:32:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:32:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:32:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:32:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:33:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:33:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:33:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:33:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:33:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:33:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:33:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:33:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:33:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:33:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:33:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:33:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:33:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:33:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:33:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:33:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:33:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:33:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:34:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:34:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:34:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:34:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:34:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:34:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:34:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:34:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:34:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:34:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:34:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:34:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:34:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:34:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:34:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:34:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:34:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:34:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:35:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:35:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:35:04 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:35:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:35:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:35:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:35:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:35:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:35:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:35:31 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:35:31 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:35:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:35:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:35:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:35:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:35:41 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:35:41 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:35:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:35:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:35:52 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:35:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:36:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:36:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:36:02 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:36:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:36:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:36:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:36:12 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:36:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:36:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:36:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:36:22 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:36:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:36:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:36:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:36:32 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:36:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:36:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:36:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:36:42 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:36:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:36:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:36:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:36:52 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:36:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:37:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:37:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:37:02 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:37:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:37:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:37:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:37:12 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:37:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:37:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:37:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:37:22 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:37:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:37:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:37:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:37:32 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:37:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:37:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:37:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:37:42 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:37:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:37:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:37:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:37:52 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:37:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:38:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:38:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:38:02 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:38:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:38:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:38:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:38:12 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:38:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:38:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:38:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:38:22 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:38:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:38:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:38:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:38:32 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:38:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:38:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:38:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:38:42 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:38:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:38:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:38:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:38:52 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:38:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:39:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:39:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:39:02 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:39:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:39:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:39:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:39:12 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:39:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:39:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:39:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:39:22 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:39:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:39:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:39:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:39:32 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:39:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:39:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:39:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:39:42 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:39:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:39:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:39:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:39:52 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:39:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:40:03 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:40:03 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:40:03 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:40:03 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:40:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:40:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:40:12 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:40:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:40:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:40:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:40:22 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:40:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:40:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:40:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:40:32 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:40:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:40:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:40:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:40:42 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:40:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:40:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:40:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:40:52 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:40:52 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:41:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:41:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:41:02 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:41:02 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:41:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:41:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:41:12 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:41:12 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:41:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:41:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:41:22 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:41:22 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:41:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:41:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:41:32 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:41:32 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:41:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 128
+[12-Apr-2020 07:41:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 135
+[12-Apr-2020 07:41:42 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 145
+[12-Apr-2020 07:41:42 Asia/Bangkok] PHP Notice:  Undefined index: wd_id in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 147
+[12-Apr-2020 07:41:52 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 01:49:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[12-Apr-2020 01:54:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[12-Apr-2020 08:54:31 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function curl_get() in /home/uak15yg03bsm/public_html/office69/agent/api/success.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/uak15yg03bsm/public_html/office69/agent/api/success.php on line 12
+[12-Apr-2020 01:57:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[12-Apr-2020 08:57:21 Asia/Bangkok] PHP Notice:  Undefined variable: send in /home/uak15yg03bsm/public_html/office69/agent/api/success.php on line 13
+[12-Apr-2020 01:57:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[12-Apr-2020 01:57:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[12-Apr-2020 02:00:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/uak15yg03bsm/public_html/office69/check.php on line 3
+[12-Apr-2020 09:55:17 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:55:56 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:55:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:00 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:11 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:21 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:30 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:41 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:47 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:50 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:56:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:57:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:57:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:57:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:57:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:57:47 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:57:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:58:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:58:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:58:28 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:58:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:58:47 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:58:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:59:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:59:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:59:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:59:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:59:49 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 09:59:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:00:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:00:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:00:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:00:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:00:46 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:00:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:01:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:01:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:01:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:01:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:01:47 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:01:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:02:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:02:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:02:27 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:02:37 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:02:47 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:02:57 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:03:07 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:03:17 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:03:21 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:03:32 Asia/Bangkok] PHP Notice:  Undefined variable: result in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54
+[12-Apr-2020 10:10:13 Asia/Bangkok] PHP Notice:  Undefined index: last_turnpoint in /home/uak15yg03bsm/public_html/office69/agent/api/wait.php on line 54

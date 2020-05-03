@@ -1,0 +1,9 @@
+[06-Apr-2020 20:44:31 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 20:50:35 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 20:51:34 Asia/Bangkok] PHP Notice:  Trying to get property 'error' of non-object in /home/uak15yg03bsm/public_html/office69/class/database.php on line 91
+[06-Apr-2020 20:52:16 Asia/Bangkok] PHP Notice:  Undefined variable: set in /home/uak15yg03bsm/public_html/office69/setting/setting_withdraw.php on line 127
+[06-Apr-2020 21:43:44 Asia/Bangkok] PHP Notice:  Undefined variable: set in /home/uak15yg03bsm/public_html/office69/setting/setting_withdraw.php on line 127
+[06-Apr-2020 21:44:28 Asia/Bangkok] PHP Notice:  Undefined variable: set in /home/uak15yg03bsm/public_html/office69/setting/setting_withdraw.php on line 127
+[06-Apr-2020 21:47:10 Asia/Bangkok] PHP Notice:  Undefined variable: set in /home/uak15yg03bsm/public_html/office69/setting/setting_withdraw.php on line 127
+[06-Apr-2020 23:01:08 Asia/Bangkok] PHP Notice:  Undefined variable: set in /home/uak15yg03bsm/public_html/office69/setting/setting_withdraw.php on line 127
+[06-Apr-2020 23:04:11 Asia/Bangkok] PHP Notice:  Undefined variable: set in /home/uak15yg03bsm/public_html/office69/setting/setting_withdraw.php on line 127

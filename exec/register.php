@@ -1,6 +1,8 @@
 
 <?php
 
+//   /exec/register.php
+
 session_start();
 
 //error_reporting(-1);
