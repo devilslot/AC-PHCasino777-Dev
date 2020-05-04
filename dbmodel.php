@@ -34,4 +34,6 @@ if ($mysqli->connect_errno) {
 
     exit();
 
+} else {
+    //echo 'DB Connected!!!!<BR>';
 }

@@ -1,0 +1,1803 @@
+@font-face {
+    font-family: DB-Heavent-cond;
+    src: url("../fonts/DB-Heavent-Cond-v3.2.woff") format("woff"), url("../fonts/DB-Heavent-Cond-v3.2.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: DB-Heavent-light;
+    src: url("../fonts/DB-Heavent-Li-v3.2.woff") format("woff"), url("../fonts/DB-Heavent-Li-v3.2.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: DB-Heavent-regular;
+    src: url("../fonts/DB-Heavent-v3.2.woff") format("woff"), url("../fonts/DB-Heavent-v3.2.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'sdchokdee-Regular';
+    src: url('../fonts/sdchokdee-Regular.eot');
+    /* IE9 Compat Modes */
+    src: local('sdchokdee-Regular'), url('../fonts/sdchokdee-Regular.eot?#iefix') format('embedded-opentype')/* IE6-IE8 */
+    , url('../fonts/sdchokdee-Regular.woff') format('woff')/* Modern Browsers */
+    , url('../fonts/sdchokdee-Regular.ttf') format('truetype')/* Safari, Android, iOS */
+    , url('../fonts/sdchokdee-Regular.svg#sdchokdee-Regular') format('svg')/* Legacy iOS */
+    ;
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+    font-family: DB-Heavent-regular;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #B8B5B7 !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #B8B5B7 !important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #B8B5B7 !important;
+}
+
+.bg-dark-x2 {
+    background-color: #272727!important;
+}
+
+a.forgot {
+    font-size: 20px;
+}
+
+h5.card-header {
+    font-size: 28px;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+div#home-just i {
+    font-size: 30px;
+}
+
+p,
+a,
+span,
+small,
+.input-group-text,
+label,
+input.form-control,
+select,
+option {
+    font-family: DB-Heavent-light;
+}
+
+.play-frame {
+    border: none;
+}
+
+.btn-line {
+    background-color: #3ACE01;
+    padding: 0px 10px;
+}
+
+.btn-red {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff;
+    background: rgb(177, 9, 4);
+    background: linear-gradient(90deg, rgba(177, 9, 4, 1) 0%, rgba(242, 23, 1, 1) 100%);
+}
+
+.btn-red:hover {
+    background: rgb(154, 11, 7);
+    background: linear-gradient(90deg, rgb(154, 11, 7) 0%, rgb(189, 25, 9) 100%);
+}
+
+.btn-silver {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #232323;
+    background: rgb(171, 171, 171);
+    background: linear-gradient(90deg, rgb(171, 171, 171) 0%, rgb(253, 253, 253) 100%);
+}
+
+.btn-silver:hover {
+    background: rgb(148, 148, 148);
+    background: linear-gradient(90deg, rgb(148, 148, 148) 0%, rgb(189, 189, 189) 100%);
+}
+
+a.btn-line {
+    font-size: 20px;
+}
+
+.list-right.addline p {
+    margin-bottom: -2px;
+}
+
+.list-right.addline {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.input-group-text {
+    font-size: 24px;
+}
+
+p.stdf,
+a.stdf,
+span.stdf {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    /*max-width: 800px;*/
+}
+
+.br-main,
+.card,
+.container.content,
+.input-group-text {
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+}
+
+.br-0 {
+    border-radius: 0px !important;
+}
+
+.btrr-0 {
+    border-top-right-radius: 0px !important;
+}
+
+.btlr-0 {
+    border-top-left-radius: 0px !important;
+}
+
+.bbrr-0 {
+    border-bottom-right-radius: 0px !important;
+}
+
+.bblr-0 {
+    border-bottom-left-radius: 0px !important;
+}
+
+.card-header:first-child {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+main {
+    padding-bottom: 20px !important;
+    margin-top: -100px;
+}
+
+.container.content {
+    background: rgb(82, 82, 82);
+    background: linear-gradient(0deg, rgba(82, 82, 82, 0) 0%, rgba(255, 255, 255, 1) 60%);
+    margin-top: 0px;
+    min-height: 300px;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    -webkit-box-shadow: 0px -20px 20px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px -20px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -20px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-bottom: 80px;
+}
+
+
+/*FIX BOTTOM NAV*/
+
+.fix-nav-bottom {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    width: 100%;
+    background: #29292B;
+}
+
+.fix-nav-bottom ul li {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 10px 0 6px 0;
+}
+
+.fix-nav-bottom ul li:hover {
+    background-color: #656565;
+}
+
+.fix-nav-bottom ul li a {
+    color: #ffffff;
+}
+
+.fix-nav-bottom ul li i {
+    font-size: 20px;
+}
+
+.fix-nav-bottom ul li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fix-nav-bottom ul li p {
+    margin-bottom: 0px;
+    margin-top: -8px;
+    font-size: 20px;
+}
+
+.fix-nav-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fix-nav-bottom-play {
+    background-color: #353a40;
+}
+
+@keyframes morph {
+	0% {
+		background-color: rgba(177, 9, 4, 1);
+	}
+	50% {
+		background-color: rgba(242, 23, 1, 1);
+	}
+	100% {
+		background-color: rgba(177, 9, 4, 1);
+	}
+}
+.fix-nav-bottom-active {
+    background-color: rgba(177, 9, 4, 1) !important;
+    animation: morph 0.5s linear 0.5s infinite !important;
+}
+
+.fix-nav-bottom-active:hover {
+    background-color: rgba(177, 9, 4, 1) !important;
+    animation: morph 0.5s linear 0.5s infinite !important;
+}
+
+
+/*Main Site Custom*/
+
+.header-bg>.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.header-bg {
+    background: url(../images/header-bg.png) top center no-repeat;
+    min-height: 199px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 500;
+}
+
+.logo {
+    /* margin: 0px auto; */
+    text-align: center;
+    width: 20%;
+    height: 70px;
+    float: left;
+}
+
+.left-top {
+    width: 41%;
+    float: left;
+    text-align: left;
+    height: 50px;
+    color: #fff;
+    padding-top: 18px;
+}
+
+.right-top {
+    width: 39%;
+    float: left;
+    text-align: right;
+    height: 70px;
+    color: #fff;
+    padding-top: 16px;
+}
+
+.left-top h1 {
+    margin-bottom: -10px;
+    font-size: 26px;
+    font-family: 'sdchokdee-Regular';
+    background: -webkit-linear-gradient(#fdf68f, #d18b31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 36px;
+}
+
+.left-top h5 {
+    font-size: 15.5px;
+    font-family: 'sdchokdee-Regular';
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 24px;
+}
+
+.left-top h1,
+.left-top h5 {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.user-infomation {
+    margin-top: -8px;
+}
+
+.user-infomation p {
+    margin-bottom: -5px;
+    font-size: 18px;
+}
+
+.logo>a>img {
+    width: 95%;
+}
+
+.btn-header-login {
+    font-size: 24px;
+    padding: 0px 12px 0px 12px;
+    font-family: DB-Heavent-light;
+}
+
+.login-top input {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    max-width: 120px;
+}
+
+.login-top i {
+    font-size: 14px;
+}
+
+.top-nav {
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.top-nav-left {
+    width: 37.5%;
+    float: left;
+}
+
+.top-nav-logo {
+    width: 25%;
+    float: left;
+}
+
+.top-nav-right {
+    width: 37.5%;
+    float: left;
+}
+
+.top-nav-logo img {
+    width: 100%;
+}
+
+.top-nav-list {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+.top-nav-list a {
+    font-size: 28px;
+    font-family: DB-Heavent-regular;
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-nav-list a:hover {
+    font-size: 28px;
+    background: -webkit-linear-gradient(#fdf68f, #d18b31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-nav-list a:link {
+    text-decoration: none;
+}
+
+.welcome-text {
+    font-size: 22px;
+}
+
+.welcome-text h1 {
+    font-size: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #cd0305;
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.welcome-text p {
+    margin: 0px;
+    line-height: 26px;
+}
+
+.welcome-text p b {
+    color: #cd0305;
+}
+
+.welcome-text img {
+    width: 100%;
+}
+
+.welcome-img img {
+    width: 100%;
+}
+
+section.welcome {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    height: 550px;
+    background-image: url(../images/footer-bg-2.jpg);
+    background-size: cover;
+    /* background-position: center bottom; */
+    margin-top: -350px;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    padding-top: 340px;
+}
+
+.footer-copyright {
+    padding-bottom: 60px;
+}
+
+.footer-text p {
+    font-size: 20px;
+}
+
+
+/*Games*/
+
+.games-title h3 {
+    width: 100%;
+    margin: 12px 0px 2px 0px;
+    font-family: 'sdchokdee-Regular';
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 40px;
+}
+
+.row.text-center.games-title {
+    background-color: #000;
+    background: url(../images/bg-nav.jpg)top center repeat-x;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.games-list img {
+    opacity: 1;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.games-list {
+    position: relative;
+}
+
+.btn-gameslist {
+    background: rgb(177, 9, 4);
+    background: linear-gradient(90deg, rgba(177, 9, 4, 1) 0%, rgba(242, 23, 1, 1) 100%);
+}
+
+.btn-gameslist:hover,
+.btn-gameslist:active,
+.btn-gameslist:focus,
+.btn-gameslist:visited {
+    background: rgb(154, 11, 7);
+    background: linear-gradient(90deg, rgb(154, 11, 7) 0%, rgb(189, 25, 9) 100%);
+    text-decoration: none;
+}
+
+a.btn-gameslist {
+    color: #ffffff !important;
+    font-size: 20px;
+    min-width: 120px;
+}
+
+a.btn-gameslist i {
+    font-size: 14px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    text-align: center;
+}
+
+.games-list .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.games-list:hover .overlay {
+    opacity: 1;
+}
+
+.games-list:hover .image {
+    opacity: 1;
+}
+
+.games-list:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.games>.row>.col-md-2 {
+    padding: 5px !important;
+}
+
+.games>.row {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.casinos>.row {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*Promotion*/
+
+.row.text-center.page-title {
+    background-color: #000;
+    background: url(../images/bg-nav.jpg)top center repeat-x;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.page-title h3 {
+    width: 100%;
+    margin: 12px 0px 2px 0px;
+    font-family: 'sdchokdee-Regular';
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 40px;
+}
+
+.promotion-list>.card>img.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.promotion-list>.card {
+    border: none;
+}
+
+.promotion-list>.card>.card-body>p.card-text {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.promotion-list>.card>.card-body>.w-100 a,
+.promotion-list>.card>.card-body>.w-50 a,
+.promotion-list>.card>.card-body>.w-35 a,
+.promotion-list>.card>.card-body>.w-30 a {
+    font-size: 17px;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+
+/*Demo*/
+
+.demo-play>.row>.col-6 p {
+    font-size: 26px;
+}
+
+.demo-play>.row>.col-md-3 i {
+    font-size: 16px;
+}
+
+.demo-play>.row>.col-md-3 a {
+    font-size: 22px;
+}
+
+.demo-play>.row>.col-md-3 a:hover {
+    color: #fff;
+}
+
+
+/*Howto*/
+
+.btn-howto i {
+    font-size: 14px;
+}
+
+.btn-howto {
+    font-size: 22px;
+    color: #585757;
+}
+
+.btn-howto:hover,
+.btn-howto:active,
+.btn-howto:visited,
+.btn-howto:focus {
+    text-decoration: none;
+    color: #CD0006;
+}
+
+.howto-all>.accordion>.card {
+    margin-bottom: 5px !important;
+}
+
+.howto-all>.accordion>.card>.card-header {
+    padding: 2px 0px 0px 0px;
+}
+
+
+/*Contact*/
+
+.contact-text p {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.contact-footer a {
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/*Main Site Custom*/
+
+
+/*SLIDE SECTION*/
+
+.slide-head {
+    background-image: url('../images/bg-slider-2.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    margin-top: 120px;
+    padding-bottom: 60px;
+}
+
+.slide {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+    opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-item img {
+    -webkit-animation-name: hvr-buzz-out;
+    animation-name: hvr-buzz-out;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+[v-cloak] > * { 
+    display: none;
+}
+
+/*Bonus*/
+
+.bonus-body {}
+
+.bonus-body p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.bonus-body h4 {
+    font-size: 26px;
+    margin-bottom: -6px;
+}
+
+.bonus-alert {
+    padding: 0px 0px 2px 0px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.bonus-alert a {
+    font-size: 14px !important;
+}
+
+.card.bonus {
+    margin-bottom: 15px;
+}
+
+
+/*Header On Mobile*/
+
+.mobile-header {
+    height: 75px;
+    background-color: #000;
+    background: url(../images/mobile-header-bg.png)
+}
+
+.mobile-logo {
+    width: 38%;
+    float: left;
+    padding: 10px 0px 5px 10px;
+}
+
+.mobile-logo img {
+    max-height: 60px;
+}
+
+.mobile-top-right {
+    width: 62%;
+    float: left;
+    padding-top: 26px;
+    padding-right: 10px;
+}
+
+
+.mobile-nav-list {
+    background: #000;
+    background: url(../images/bg-nav.jpg)top center repeat-x;
+    width: 100%;
+    top: 50px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.mobile-nav-list a,
+.mobile-nav-list i {
+    display: inline-block;
+    background: -webkit-linear-gradient(#ffffff, #c7c7c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 6px 10px 4px 4px;
+    text-decoration: none;
+}
+
+.mobile-nav-list:hover a,
+.mobile-nav-list:hover i {
+    background: -webkit-linear-gradient(#ffffff, #d4d4d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mobile-nav-list a {
+    font-size: 18px;
+    font-family: DB-Heavent-regular;
+}
+
+.mobile-nav-list i {
+    font-size: 14px;
+}
+
+
+.btn-header-login-mobile {
+    font-size: 20px;
+    padding: 0px 8px 0px 8px;
+    font-family: DB-Heavent-light;
+}
+
+                .casinos-title h3 {
+                    width: 100%;
+                    margin: 12px 0px 2px 0px;
+                    font-family: 'sdchokdee-Regular';
+                    background: -webkit-linear-gradient(#bf9243, #eec669);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    line-height: 40px;
+                }
+                .row.text-center.casinos-title {
+                    background-color: #000;
+                    background: url(https://slotgame66.com/demo1/assets/images/bg-nav.jpg)top center repeat-x;
+                    margin-left: -10px;
+                    margin-right: -10px;
+                }
+                .casinos>.row>.col-md-3{
+                    padding: 5px !important;
+                }
+                .casinos>.row>.col-md-4{
+                    padding: 5px !important;
+                }
+                .casinos>.row>.col-md-6{
+                    padding: 5px !important;
+                }
+                .casino-list {
+                    position: relative;
+                }
+                .casino-list .overlay {
+                    background: rgba(0, 0, 0, 0.7);
+                    border-radius: 8px;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    opacity: 0;
+                    -webkit-transition: all 0.4s ease-in-out 0s;
+                    -moz-transition: all 0.4s ease-in-out 0s;
+                    transition: all 0.4s ease-in-out 0s;
+                }
+                .casino-list:hover .overlay {
+                    opacity: 1;
+                }
+
+                .casino-list:hover .image {
+                    opacity: 1;
+                }
+
+                .casino-list:hover .middle {
+                    opacity: 1;
+                }
+
+                .casino-list img {
+                    opacity: 1;
+                    width: 100%;
+                    border-top-left-radius: 8px;
+                    border-top-right-radius: 8px;
+                    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+                    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+                    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+                }
+                .btn-casinolist:hover, .btn-casinolist:active, .btn-casinolist:focus, .btn-casinolist:visited {
+                    background: rgb(191,146,67);
+                    background: linear-gradient(90deg, rgba(191,146,67,1) 0%, rgba(241,211,130,1) 50%, rgba(238,198,105,1) 100%);
+                    text-decoration: none;
+                }
+                a.btn-casinolist {
+                    color: #79520c !important;
+                    font-size: 20px;
+                    min-width: 120px;
+                }
+                .btn-casinolist {
+                    background: rgb(191,146,67);
+                    background: linear-gradient(90deg, rgba(191,146,67,1) 0%, rgba(241,211,130,1) 50%, rgba(238,198,105,1) 100%);
+                }
+                .casino-title{
+                    font-size: 22px;
+                    background: rgb(191,146,67);
+                    background: linear-gradient(90deg, rgba(191,146,67,1) 0%, rgba(241,211,130,1) 50%, rgba(238,198,105,1) 100%);
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    margin-bottom: 0px;
+                }
+                .casino-list:hover .casino-title{
+                    color: #fff;
+                    background: rgb(51, 51, 50);
+                }
+
+/* Media Queries*/
+
+@media (max-width: 575px) {
+    .card,
+    .container.content,
+    .input-group-text {
+        border-radius: 12px;
+    }
+    .fix-nav-bottom ul li {
+        padding: 8px 0 4px 0;
+    }
+    .fix-nav-bottom ul li p {
+        margin-bottom: 0px;
+        margin-top: -4px;
+        font-size: 16px;
+    }
+    .top-nav ul li p {
+        display: none;
+    }
+    .slide>.container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    main {
+        padding: 18px;
+    }
+    .navbar {
+        padding: 0px;
+    }
+    .container.content {
+        margin-top: -50px;
+        min-height: 300px;
+        padding: 10px 10px 10px 10px;
+    }
+    h5.card-header {
+        text-align: center;
+        font-size: 20px;
+        padding: 5px 5px;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .list-left h5 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+    .btn-successed {
+        font-size: 10px;
+        padding: 0px 6px;
+        margin-bottom: 4px;
+        font-family: DB-Heavent-light;
+    }
+    .btn-successed i {
+        font-size: 8px !important;
+    }
+    a.btn-line {
+        font-size: 16px;
+    }
+    .bonus-body a {
+        font-size: 16px;
+    }
+    .card.bonus {
+        margin-bottom: 10px;
+    }
+    .bonus-body p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    /*Main Site*/
+    .fix-nav-bottom ul li i {
+        font-size: 18px;
+    }
+    .fix-nav-bottom ul li p {
+        margin-bottom: 0px;
+        margin-top: -4px;
+        font-size: 14px;
+    }
+    .games-title h3 {
+        width: 100%;
+        margin: 12px 0px 2px 0px;
+        font-family: 'sdchokdee-Regular';
+        font-size: 22px;
+        background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .casinos-title h3 {
+        width: 100%;
+        margin: 12px 0px 2px 0px;
+        font-family: 'sdchokdee-Regular';
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .welcome-text p {
+        margin: 0px;
+        line-height: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer-text p {
+        font-size: 14px;
+    }
+    footer {
+        height: 570px;
+        margin-top: -360px;
+        margin-bottom: 0px;
+        padding-bottom: 60px;
+        padding-top: 340px;
+    }
+    a.btn-gameslist {
+        color: #ffffff !important;
+        font-size: 13px;
+        min-width: 80px;
+    }
+    a.btn-gameslist i {
+        font-size: 8px;
+    }
+    .welcome-text h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    main {
+        padding-bottom: 20px !important;
+        margin-top: -58px;
+    }
+    .slide {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .slide-head {
+        background-image: url(../images/bg-slider.png);
+        background-size: cover;
+        background-position: center bottom;
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+    .demo-play>.row>.col-md-3 a {
+        font-size: 14px;
+        width: 100%;
+    }
+    .contact-text p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .casino-title {
+        font-size: 18px;
+    }
+    a.btn-casinolist {
+        color: #79520c !important;
+        font-size: 16px;
+        min-width: 96px;
+    }
+    a.btn-casinolist i {
+        font-size: 16px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    main {
+        padding-bottom: 20px !important;
+        margin-top: -90px;
+    }
+    .slide-head {
+        background-image: url(../images/bg-slider.png);
+        background-size: cover;
+        background-position: center bottom;
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .logo {
+        /* margin: 0px auto; */
+        text-align: center;
+        width: 30%;
+        height: 80px;
+        float: left;
+    }
+    .left-top {
+        width: 35%;
+        float: left;
+        text-align: center;
+        height: 80px;
+        color: #fff;
+    }
+    .right-top {
+        width: 35%;
+        float: left;
+        text-align: center;
+        height: 80px;
+        color: #fff;
+    }
+    .login-top {
+        display: none;
+    }
+    .top-nav {
+        width: 100%;
+        height: 50px;
+        padding-top: 2px;
+    }
+    .top-nav-list a {
+        font-size: 20px;
+        color: #ffffff;
+    }
+    header>.container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+    footer {
+        height: 600px;
+        /* background-position: center bottom; */
+        margin-top: -430px;
+        margin-bottom: 0px;
+        padding-bottom: 60px;
+        padding-top: 400px;
+    }
+    .footer-copyright {
+        padding-bottom: 60px;
+    }
+    .footer-text p {
+        font-size: 16px;
+    }
+    .welcome-text h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    a.btn-gameslist i {
+        font-size: 10px;
+    }
+    a.btn-gameslist {
+        color: #ffffff !important;
+        font-size: 16px;
+        min-width: 90px;
+    }
+    .mobile-top-right {
+        width: 100%;
+        float: left;
+        padding-top: 6px;
+        padding-right: 10px;
+    }
+    .contact-text p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+/*Right Bar*/
+.right-bar {
+    position: fixed;
+    top: 25%;
+    right: 0;
+}
+.rewards-desc h2 {
+	font-size: 50px;
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	.welcome-text p {
+	    height: 200px;
+	    overflow: scroll;
+	}
+	.footer-text p {
+	    font-size: 18px;
+	    line-height: 24px;
+	}
+}
+@media screen and (max-width: 993px) and (min-width: 768px) {
+	.welcome-text p {
+	    height: 160px;
+	    overflow: scroll;
+	    line-height: 22px;
+	    font-size: 20px;
+	}
+	.rewards-desc h2 {
+	    font-size: 30px;
+	}
+	.footer-text p{
+		font-size: 16px;
+	    line-height: 22px;
+	    height: 148px;
+	    overflow: scroll;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+	.welcome-text p {
+	    height: 160px;
+	    overflow: scroll;
+	    line-height: 22px;
+	    font-size: 20px;
+	    text-align: center;
+	}
+	.footer-text p{
+		font-size: 16px;
+	    line-height: 22px;
+	    height: 120px;
+	    overflow: scroll;
+	}
+}
+@media screen and (max-width: 575px) and (min-width: 0px) {
+	.footer-text p{
+		height: 120px;
+	    overflow: scroll;
+	}
+    .page-title h3 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+}
+
+/*Edit Games List*/
+    .embed-responsive {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+    .embed-responsive iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    iframe {
+        display: block;
+        background: #000;
+        border: none;
+        width: 100%;
+    }
+        a.btn-gameslist {
+            color: #ffffff !important;
+            font-size: 16px;
+            min-width: 100px;
+        }
+        
+        @media (max-width: 575px) {
+            a.btn-gameslist {
+                color: #ffffff !important;
+                font-size: 14px;
+                min-width: 68px;
+            }
+        }
+        
+        .fix-right {
+            position: fixed;
+            width: 180px;
+            z-index: 10;
+            right: 10px;
+            bottom: 10%;
+            padding: 10px 0px 0px 0px;
+        }
+        
+        .fix-line {
+            float: left;
+        }
+        
+        .line-id {
+            float: left;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+            color: #FFF;
+            text-align: left;
+            margin: 0px 0px 0px 0px;
+            padding: 5px 0px 5px 0px;
+            text-align: center;
+            background-color: #57C42E;
+        }
+        
+        /*Style For Sexy List*/
+        
+        .sexy-title h3 {
+            width: 100%;
+            margin: 12px 0px 2px 0px;
+            font-family: 'sdchokdee-Regular';
+            background: -webkit-linear-gradient(#bf9243, #eec669);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 40px;
+        }
+        
+        .row.text-center.sexy-title {
+            background-color: #000;
+            background: url(https://slotgame66.com/demo1/assets/images/bg-nav.jpg)top center repeat-x;
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+        
+        .sexy-list {
+            position: relative;
+        }
+        
+        .sexy-list .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+        
+        .sexy-list:hover .overlay {
+            opacity: 1;
+        }
+        
+        .sexy-list:hover .image {
+            opacity: 1;
+        }
+        
+        .sexy-list:hover .middle {
+            opacity: 1;
+        }
+        
+        .sexy-list img {
+            opacity: 1;
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-sexylist:hover,
+        .btn-sexylist:active,
+        .btn-sexylist:focus,
+        .btn-sexylist:visited {
+            background: rgb(191, 146, 67);
+            background: linear-gradient(90deg, rgb(18, 2, 29) 0%, rgb(74, 17, 54) 50%, rgb(173, 66, 120) 100%);
+            text-decoration: none;
+        }
+        
+        a.btn-sexylist {
+            color: #dcdcdc !important;
+            font-size: 20px;
+            min-width: 120px;
+        }
+        
+        .btn-sexylist {
+            background: rgb(191, 146, 67);
+            background: linear-gradient(90deg, rgb(18, 2, 29) 0%, rgb(74, 17, 54) 50%, rgb(173, 66, 120) 100%);
+        }
+        
+        .sexy-title {
+            font-size: 22px;
+            background: rgb(77, 16, 54);
+            background: linear-gradient(90deg, rgb(18, 2, 29) 0%, rgb(74, 17, 54) 50%, rgb(173, 66, 120) 100%);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            margin-bottom: 0px;
+        }
+        
+        .sexy-list:hover .sexy-title {
+            color: #fff;
+            background: rgb(51, 51, 50);
+        }
+        
+        p.sexy-title {
+            color: #dcdcdc;
+        }
+        
+        /* End Style For Sexy List */
+        
+        /*Style For AG List*/
+        
+        .ag-title h3 {
+            width: 100%;
+            margin: 12px 0px 2px 0px;
+            font-family: 'sdchokdee-Regular';
+            background: -webkit-linear-gradient(#bf9243, #eec669);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 40px;
+        }
+        
+        .row.text-center.ag-title {
+            background-color: #000;
+            background: url(https://slotgame66.com/demo1/assets/images/bg-nav.jpg)top center repeat-x;
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+        
+        .ag-list {
+            position: relative;
+        }
+        
+        .ag-list .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+        
+        .ag-list:hover .overlay {
+            opacity: 1;
+        }
+        
+        .ag-list:hover .image {
+            opacity: 1;
+        }
+        
+        .ag-list:hover .middle {
+            opacity: 1;
+        }
+        
+        .ag-list img {
+            opacity: 1;
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-aglist:hover,
+        .btn-aglist:active,
+        .btn-aglist:focus,
+        .btn-aglist:visited {
+            background: rgb(191, 146, 67);
+            background: linear-gradient(90deg, rgb(239, 94, 33) 0%, rgb(53, 47, 44) 50%, rgb(50, 150, 193) 100%);
+            text-decoration: none;
+        }
+        
+        a.btn-aglist {
+            color: #dcdcdc !important;
+            font-size: 16px;
+            min-width: 120px;
+        }
+        
+        .btn-aglist {
+            background: rgb(191, 146, 67);
+            background: linear-gradient(90deg, rgb(239, 94, 33) 0%, rgb(53, 47, 44) 50%, rgb(50, 150, 193) 100%);
+        }
+        
+        .ag-title {
+            font-size: 22px;
+            background: rgb(77, 16, 54);
+            background: linear-gradient(90deg, rgb(239, 94, 33) 0%, rgb(53, 47, 44) 50%, rgb(50, 150, 193) 100%);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            margin-bottom: 0px;
+        }
+        
+        .ag-list:hover .ag-title {
+            color: #fff;
+            background: rgb(51, 51, 50);
+        }
+        
+        p.ag-title {
+            color: #dcdcdc;
+        }
+        
+        /* End Style For AG List */
+        
+        /* Slider */
+        
+        .slick-slide {
+            margin: 0px 20px;
+        }
+        
+        .slick-slide img {
+            width: 100%;
+        }
+        
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .slick-list:focus {
+            outline: none;
+        }
+        
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+        
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+        }
+        
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+        
+        .slick-track:after {
+            clear: both;
+        }
+        
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+        
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+        
+        [dir='rtl'] .slick-slide {
+            float: right;
+        }
+        
+        .slick-slide img {
+            display: block;
+        }
+        
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+        
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+        
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+        
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+        
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+        
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+        
+        /* Start Youtube */
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        
+        .embed-container iframe,
+        .embed-container object,
+        .embed-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* End Youtube */
+/*End Edit Games List*/
+
+/* Start Add New 05/04/63 */
+                                                                                        
+.rewards-desc a {
+    font-size: 20px;
+}
+
+.rewards-desc select {
+    text-align: center;
+    font-size: 24px;
+}
+
+.rewards-list div {
+    /*background-color: #f1f1f1;*/
+}
+
+.rewards-list p {
+    font-size: 20px;
+}
+
+.rewards-list button.btn.btn-danger {
+    font-size: 20px;
+}
+
+.rewards-list button.btn.btn-danger i {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .rewards-table td,
+    .rewards-table th {
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+    .rewards-table {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 0px) {
+    .row.text-center.page-title {
+        background-color: #000;
+        background: url(../images/bg-nav.jpg)top center repeat-x;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: 15px;
+        margin-top: -15px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+    .ag-title {
+	    font-size: 16px;
+	}
+	section.welcome {
+	    margin-bottom: 5px;
+	    margin-top: 0px;
+	}
+	.welcome-text p {
+	    height: 120px;
+	    overflow: scroll;
+	}
+ }
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    .rewards-desc h2 {
+        font-size: 24px;
+    }
+    .rewards-table td,
+    .rewards-table th {
+        padding: .50rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+    .rewards-table {
+        font-size: 12px;
+    }
+}
+    /* End Add New 05/04/63 */

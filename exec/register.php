@@ -21,20 +21,19 @@ if (empty($_POST['phone'])) {
     echo "<script>swal.fire('ข้อมูลไม่ครบ','กรุณากรอก ชื่อจริง', 'error');</script>";
 } elseif (empty($_POST['lastname'])) {
     echo "<script>swal.fire('ข้อมูลไม่ครบ','กรุณากรอก นามสกุล', 'error');</script>";
-} elseif (empty($_POST['bankaccount'])) {
+} elseif (empty($_POST['bank_account'])) {
     echo "<script>swal.fire('ข้อมูลไม่ครบ','กรุณากรอก หมายเลขบัญชี', 'error');</script>";
 } elseif (empty($_POST['bankcode'])) {
     echo "<script>swal.fire('ข้อมูลไม่ครบ','กรุณาเลือก ธนาคาร', 'error');</script>";
 } elseif (empty($_POST['lineid'])) {
     echo "<script>swal.fire('ข้อมูลไม่ครบ','กรุณากรอก ไอดีไลน์', 'error');</script>";
-} elseif (empty($_POST['captcha'])) {
-    echo "<script>swal.fire('ข้อมูลไม่ครบ','กรุณากรอก CAPTCHA', 'error');</script>";
+//} elseif (empty($_POST['captcha'])) {
+//    echo "<script>swal.fire('ข้อมูลไม่ครบ','กรุณากรอก CAPTCHA', 'error');</script>";
 } else { 
     require_once '../dbmodel.php';
     require_once '../function.php';
 
     $site = include(__DIR__ . '/../config/site.php');
-
 
     // Check duplicated IP
     $ip = getIP();
@@ -63,17 +62,18 @@ if (empty($_POST['phone'])) {
 
     $phone = str_check(trim($_POST['phone']));
     $password = str_check(trim($_POST['password']));
-    $name = str_check(trim($_POST['firstname']));
-    $surname = str_check(trim($_POST['lastname']));
-    $banktype = str_check(trim($_POST['bankcode']));
-    $banknumber = str_check(trim($_POST['bankaccount']));
+    $firstname = str_check(trim($_POST['firstname']));
+    $lastname = str_check(trim($_POST['lastname']));
+    $bankcode = str_check(trim($_POST['bankcode']));
+    $bank_account = str_check(trim($_POST['bank_account']));
     $lineid = str_check(trim($_POST['lineid']));
-    $row_bank = check_bank_num($banknumber);
+    $row_bank = check_bank_num($bank_account);
     $row_line = check_line($lineid);
     $row_phone = check_phone($phone);
+    $know_us_from = str_check(trim($_POST['source']));
     $aff = NULL;
     $first_deposit_bonus = 0;
-    $captcha_code = trim($_POST['captcha']);
+    //$captcha_code = trim($_POST['captcha']);
 
     /*
     echo 'captcha : ' . $captcha_code . PHP_EOL;
@@ -94,20 +94,20 @@ if (empty($_POST['phone'])) {
         }else{
             echo "<script>swal.fire('ข้อมูลไม่ถูกต้อง','รหัสผ่านต้องมีตัวเลขอยู่ด้วยอย่างน้อย 1 ตัว', 'error');</script>";
         }
-    } elseif(!preg_match('/^[ก-๙เ]+$/',$name)){
+    } elseif(!preg_match('/^[ก-๙เ]+$/',$firstname)){
         echo "<script>swal.fire('ข้อมูลไม่ถูกต้อง','ชื่อจริงต้องเป็นภาษาไทยเท่านั้น ห้ามมีเว้นวรรค', 'error');</script>";
-    } elseif(!preg_match('/^[ก-๙เ]+$/',$surname)){
+    } elseif(!preg_match('/^[ก-๙เ]+$/',$lastname)){
         echo "<script>swal.fire('ข้อมูลไม่ถูกต้อง','นามสกุลต้องเป็นภาษาไทยเท่านั้น ห้ามมีเว้นวรรค', 'error');</script>";
-    } elseif (misc_parsestring($banknumber, '0123456789') == false) {
+    } elseif (misc_parsestring($bank_account, '0123456789') == false) {
         echo "<script>swal.fire('ข้อมูลไม่ถูกต้อง','หมายเลขบัญชี ต้องเป็นตัวเลข 10 หลักเท่านั้น', 'error');</script>";
     } elseif ($row_bank > 0) {
-        echo "<script>swal.fire('ข้อมูลซ้ำ','หมายเลขบัญชี $banknumber นี้ถูกใช้งานแล้ว', 'error');</script>";
+        echo "<script>swal.fire('ข้อมูลซ้ำ','หมายเลขบัญชี $bank_account นี้ถูกใช้งานแล้ว', 'error');</script>";
     } elseif ($row_phone > 0) {
         echo "<script>swal.fire('ข้อมูลซ้ำ','หมายเลขโทรศัพท์: $phone นี้ถูกใช้งานแล้ว', 'error');</script>";
     } elseif ($row_line > 0) {
         echo "<script>swal.fire('ข้อมูลซ้ำ','ไลน์ไอดี: $lineid นี้ถูกใช้งานแล้ว', 'error');</script>";
-    } elseif ($_SESSION['captcha']['code'] <> $captcha_code) {
-        echo "<script>swal.fire('ข้อมูลผิด','CAPTCHA ไม่ถูกต้อง', 'error');</script>";
+    //} elseif ($_SESSION['captcha']['code'] <> $captcha_code) {
+//        echo "<script>swal.fire('ข้อมูลผิด','CAPTCHA ไม่ถูกต้อง', 'error');</script>";
     } else {
         
         $row_getuser = $mysqli->query("SELECT member_no FROM `members` ORDER BY member_no DESC LIMIT 1")->fetch_assoc();
@@ -127,7 +127,7 @@ if (empty($_POST['phone'])) {
         
         // Insert 'members' table
         $sql = "INSERT INTO members (member_username,member_password,member_name,member_surname,member_phone,member_bank_number, member_bank_type, member_line, member_register_date,member_ip,member_level,member_aff,member_vip_date,member_login,member_from,first_deposit_bonus) VALUES (";
-        $sql .= "'" . $username . "','" . $password . "','" . $name . "','" . $surname . "','" . $phone . "','" . $banknumber . "','" . $banktype . "','" . $lineid . "','" . $register_date . "','" . $ip . "'," . $level . ",'" . $aff . "',NULL,'" . $member_login . "','','" . $first_deposit_bonus . "')"; 
+        $sql .= "'" . $username . "','" . $password . "','" . $firstname . "','" . $lastname . "','" . $phone . "','" . $bank_account . "','" . $bankcode . "','" . $lineid . "','" . $register_date . "','" . $ip . "'," . $level . ",'" . $aff . "',NULL,'" . $member_login . "','" . $know_us_from . "','" . $first_deposit_bonus . "')"; 
 
         //echo "\n" . $sql;
 

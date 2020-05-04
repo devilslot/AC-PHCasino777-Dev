@@ -118,6 +118,10 @@ $total_wallet = $data_member_wallet['main_wallet'] + $data_member_wallet['bonus_
                     <div class="transaction card-body">
                         <h3 class="card-title">ลิงค์แนะนำเพื่อน</h3> <?= $site['host'] ?>/aff?<?= $_SESSION['member_login'] ?>
                     </div>
+                    <div class="transaction card-body">
+                        <h3 class="card-title">โปรโมชั่น</h3>
+                        <input type="button" onclick="location.href='<?= $site['host'] ?>/promo';" value="เลือกโปรโมชั่น" />
+                    </div>
                 </div>
             </div>
         </section>

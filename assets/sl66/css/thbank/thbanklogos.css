@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "thbanks";
+  src        : url('../../fonts/thbanks.eot');
+  src        : url('../../fonts/thbanks.eot?#iefix') format('eot'), url('../../fonts/thbanks.woff') format('woff'), url('../../fonts/thbanks.ttf') format('truetype'), url('../../fonts/thbanks.svg#thbanks') format('svg');
+  font-weight: normal;
+  font-style : normal;
+}
+
+.thbanks {
+  display: inline-block;
+  color  : #fff;
+  border-radius: 3px;
+}
+
+.thbanks:before {
+  padding: 0.3em;
+}
+
+.thbanks:before {
+  display                : inline-block;
+  font-family            : "thbanks";
+  font-style             : normal;
+  font-weight            : normal;
+  line-height            : 1;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.thbanks-lg {
+  font-size     : 1.3333333333333333em;
+  line-height   : 0.75em;
+  vertical-align: -15%;
+}
+
+.thbanks-2x {
+  font-size: 2em;
+}
+
+.thbanks-3x {
+  font-size: 3em;
+}
+
+.thbanks-4x {
+  font-size: 4em;
+}
+
+.thbanks-5x {
+  font-size: 5em;
+}
+
+.thbanks-fw {
+  width     : 1.2857142857142858em;
+  text-align: center;
+}
+
+.thbanks-baac:before {
+  content: "\EA01";
+}
+
+.thbanks-bay:before {
+  content: "\EA02";
+}
+
+.thbanks-bbl:before {
+  content: "\EA03";
+}
+
+.thbanks-bnp:before {
+  content: "\EA04";
+}
+
+.thbanks-boa:before {
+  content: "\EA05";
+}
+
+.thbanks-cacib:before {
+  content: "\EA06";
+}
+
+.thbanks-cimb:before {
+  content: "\EA07";
+}
+
+.thbanks-citi:before {
+  content: "\EA08";
+}
+
+.thbanks-db:before {
+  content: "\EA09";
+}
+
+.thbanks-ghb:before {
+  content: "\EA0A";
+}
+
+.thbanks-gsb:before {
+  content: "\EA0B";
+}
+
+.thbanks-hsbc:before {
+  content: "\EA0C";
+}
+
+.thbanks-ibank:before {
+  content: "\EA0D";
+}
+.thbanks-isbt:before {
+  content: "\EA0D";
+}
+
+.thbanks-icbc:before {
+  content: "\EA0E";
+}
+
+.thbanks-jpm:before {
+  content: "\EA0F";
+}
+
+.thbanks-kbank:before {
+  content: "\EA10";
+}
+
+.thbanks-kk:before {
+  content: "\EA11";
+}
+
+.thbanks-ktb:before {
+  content: "\EA12";
+}
+
+.thbanks-lhb:before {
+  content: "\EA13";
+}
+
+.thbanks-mb:before {
+  content: "\EA14";
+}
+
+.thbanks-mega:before {
+  content: "\EA15";
+}
+
+.thbanks-mufg:before {
+  content: "\EA16";
+}
+
+.thbanks-rbs:before {
+  content: "\EA17";
+}
+
+.thbanks-sc:before {
+  content: "\EA18";
+}
+
+.thbanks-scb:before {
+  content: "\EA19";
+}
+
+.thbanks-smbc:before {
+  content: "\EA1A";
+}
+
+.thbanks-tbank:before {
+  content: "\EA1B";
+}
+.thbanks-tbn:before {
+  content: "\EA1B";
+}
+
+.thbanks-tcrb:before {
+  content: "\EA1C";
+}
+
+.thbanks-tisco:before {
+  content: "\EA1D";
+}
+.thbanks-tsco:before {
+  content: "\EA1D";
+}
+
+.thbanks-tmb:before {
+  content: "\EA1E";
+}
+
+.thbanks-uob:before {
+  content: "\EA1F";
+}
+
+before {
+  content: "\EA1F";
+}

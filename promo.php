@@ -10,7 +10,7 @@ $site = include(__DIR__ . '/config/site.php');
 $pg = include(__DIR__ . '/config/pg.php');
 include(__DIR__ . '/checklogin.php');
 
-$promo_list = $mysqli->query("SELECT * FROM m_promo WHERE promo_status='1' ORDER BY promo_id");
+//$promo_list = $mysqli->query("SELECT * FROM m_promo WHERE promo_status='1' ORDER BY promo_id");
 
 ?>
 
@@ -20,65 +20,75 @@ $promo_list = $mysqli->query("SELECT * FROM m_promo WHERE promo_status='1' ORDER
 <head>
     <title>โปรโมชั่น</title>
     <?php
-    include(__DIR__ . '/include/head.php');
+    require_once './include/promo_header.php'
     ?>
 </head>
 
 <body>
     <h3>โปรโมชั่น</h3>
 
-    <?php
-    foreach ($promo_list as $row) {
-        $full_desc = $row['full_desc'];
-        if (strpos($full_desc, "$1") <> false) {
-            $full_desc = str_replace("$1", $row['calculate_value'], $full_desc);
-        }
-        if (strpos($full_desc, "$2") <> false) {
-            $full_desc = str_replace("$2", $row['min'], $full_desc);
-        }
-        if (strpos($full_desc, "$3") <> false) {
-            $full_desc = str_replace("$3", $row['max'], $full_desc);
-        }
-        if (strpos($full_desc, "$4") <> false) {
-            $full_desc = str_replace("$4", $row['turnover_multiplier'], $full_desc);
-        }
-
-        echo '<form id="promo' . $row['promo_id'] . '">';
-        echo '<input type="hidden" name="promo_id" value="' . $row['promo_id'] . '">';
-        echo '-> ' . trim($full_desc);
-        if (!isset($_SESSION['promo1'])) {
-            echo '  >>> <button type="submit">รับสิทธิ์</button><BR>';
-            //echo '  >>> <button id="getPromo' . $row['promo_id'] . '">รับสิทธิ์</button><BR>';
-            //echo '  >>> <button onclick="getConfirmPromo(' . $row['promo_id'] . ',' . $_SESSION['member_no'] . ')">รับสิทธิ์</button><BR>';
-        }
-        echo '</form>';
-    }
-    ?>
-
-    <div id="alerts"></div>
-
-    <script src="/util/utility.js"></script>
+    <div id="load-promo-list"></div> <!-- products will be load here -->
 
     <?php
-    $promo_list = $mysqli->query("SELECT * FROM m_promo WHERE promo_status='1' ORDER BY promo_id");
-    foreach ($promo_list as $row) {
-        echo '<script>' . PHP_EOL;
-        echo '$("#promo' . $row['promo_id'] . '").submit(function(e) {' . PHP_EOL;
-    ?>
-        e.preventDefault();
-        $.post('/exec/promo.php', $(this).serialize(), function(data) {
-        $("#alerts").html(data)
-        });
-        return false;
-        });
-    <?php
-        echo '</script>';
-    }
+    require_once './include/promo_footer_js.php'
     ?>
 
     <script>
-        
+        $(document).ready(function() {
+
+
+            $(document).on('click', '#choose_promo', function(e) {
+
+                var promoID = $(this).data('id');
+                SwalDelete(promoID);
+                e.preventDefault();
+            });
+
+            getPromoList(); /* it will load products when document loads */
+        });
+
+        function SwalDelete(promoID) {
+            swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!',
+                showLoaderOnConfirm: true,
+                preConfirm: function() {
+                    return new Promise(function(resolve) {
+
+                        $.ajax({
+                                url: 'delete.php',
+                                type: 'POST',
+                                data: 'delete=' + promoID,
+                                dataType: 'json'
+                            })
+                            .done(function(response) {
+                                console.log(response);
+                                swal.fire('Deleted!', response.message, response.status);
+                                readProducts();
+                            })
+                            .fail(function() {
+                                swal('Oops...', 'Something went wrong with ajax !', 'error');
+                            });
+
+                    });
+                },
+                allowOutsideClick: true
+            });
+        }
+
+        function getPromoList() {
+            $('#load-promo-list').load('/include/promo_list.php');
+            $(document).load('index.php');
+        }
     </script>
+
+
+
 
 
 </body>

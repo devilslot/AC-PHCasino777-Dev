@@ -1,0 +1,2125 @@
+@font-face {
+    font-family: DB-Heavent-cond;
+    src: url("../fonts/DB-Heavent-Cond-v3.2.woff") format("woff"), url("../fonts/DB-Heavent-Cond-v3.2.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: DB-Heavent-light;
+    src: url("../fonts/DB-Heavent-Li-v3.2.woff") format("woff"), url("../fonts/DB-Heavent-Li-v3.2.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: DB-Heavent-regular;
+    src: url("../fonts/DB-Heavent-v3.2.woff") format("woff"), url("../fonts/DB-Heavent-v3.2.ttf") format("truetype")
+}
+
+body {
+    background-color: #cccccc;
+}
+
+.card {
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #ea041d;
+    border-color: #ea041d;
+}
+
+.page-link {
+    color: #ea041d;
+}
+
+.page-link:hover {
+    color: #ea041d;
+}
+.b-pagination{
+    width: fit-content;
+    margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+    font-family: DB-Heavent-regular;
+}
+
+.btn {
+    font-size: 23px;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #B8B5B7 !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #B8B5B7 !important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #B8B5B7 !important;
+}
+
+a.forgot {
+    font-size: 20px;
+    color: rgb(154, 11, 7);
+}
+
+h5.card-header {
+    font-size: 28px;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+div#home-just i {
+    font-size: 30px;
+}
+
+p,
+a,
+span,
+small,
+.input-group-text,
+label,
+input.form-control,
+select,
+option {
+    font-family: DB-Heavent-light;
+}
+
+.btn-line {
+    background-color: #3ACE01;
+    padding: 0px 10px;
+}
+
+a.btn-line {
+    font-size: 20px;
+}
+
+.list-right.addline p {
+    margin-bottom: -2px;
+}
+
+.list-right.addline {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.input-group-text {
+    font-size: 24px;
+}
+
+p.stdf,
+a.stdf,
+span.stdf {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.br-main,
+.card,
+.container.content,
+.credit-box,
+.play-button,
+.bank-box,
+.copy-button,
+.btn-withdraw,
+.input-group-text,
+.bank-user-logo i,
+.affiliate-box,
+.stat-content {
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+}
+
+form.login button {
+    font-size: 30px;
+}
+
+.btn-red {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff;
+    background: rgb(177, 9, 4);
+    background: linear-gradient(90deg, rgba(177, 9, 4, 1) 0%, rgba(242, 23, 1, 1) 100%);
+    font-family: DB-Heavent-light;
+}
+
+.btn-red:hover {
+    background: rgb(154, 11, 7);
+    background: linear-gradient(90deg, rgb(154, 11, 7) 0%, rgb(189, 25, 9) 100%);
+    text-decoration: none;
+}
+
+.btn-zinc {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #6f6f6f !important;
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: DB-Heavent-light;
+}
+
+.btn-zinc:hover {
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cecdcd, #b7b7b7, #e2e2e2, #868376);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cecdcd, #b7b7b7, #e2e2e2, #868376);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+}
+
+.btn-outline-red {
+    color: rgb(154, 11, 7);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(154, 11, 7);
+}
+
+.btn-outline-red:hover {
+    color: #fff;
+    background: rgb(154, 11, 7);
+    background: linear-gradient(90deg, rgb(154, 11, 7) 0%, rgb(189, 25, 9) 100%);
+    border-color: rgb(154, 11, 7);
+}
+
+.btn-silver {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #232323 !important;
+    background: rgb(171, 171, 171);
+    background: linear-gradient(90deg, rgb(171, 171, 171) 0%, rgb(253, 253, 253) 100%);
+}
+
+.btn-silver:hover {
+    background: rgb(148, 148, 148);
+    background: linear-gradient(90deg, rgb(148, 148, 148) 0%, rgb(189, 189, 189) 100%);
+    text-decoration: none;
+}
+
+.btn-gold {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #8A5120 !important;
+    background: rgb(213, 148, 56);
+    background: linear-gradient(90deg, rgb(213, 148, 56) 0%, rgb(254, 233, 128) 100%);
+}
+
+.btn-gold:hover {
+    background: rgb(181, 121, 35);
+    background: linear-gradient(90deg, rgb(181, 121, 35) 0%, rgb(255, 243, 186) 100%);
+    text-decoration: none;
+}
+
+@keyframes morph {
+    0% {
+        background-color: rgba(177, 9, 4, 1);
+    }
+    50% {
+        background-color: rgba(242, 23, 1, 1);
+    }
+    100% {
+        background-color: rgba(177, 9, 4, 1);
+    }
+}
+.fix-nav-bottom-active {
+    background-color: rgba(177, 9, 4, 1) !important;
+    animation: morph 0.5s linear 0.5s infinite !important;
+}
+
+.fix-nav-bottom-active:hover {
+    background-color: rgba(177, 9, 4, 1) !important;
+    animation: morph 0.5s linear 0.5s infinite !important;
+}
+
+
+.br-0 {
+    border-radius: 0px !important;
+}
+
+.btrr-0 {
+    border-top-right-radius: 0px !important;
+}
+
+.btlr-0 {
+    border-top-left-radius: 0px !important;
+}
+
+.bbrr-0 {
+    border-bottom-right-radius: 0px !important;
+}
+
+.bblr-0 {
+    border-bottom-left-radius: 0px !important;
+}
+
+.card-header:first-child {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+main {
+    padding-bottom: 20px !important;
+}
+
+.container.content {
+    background-color: #fff;
+    margin-top: -80px;
+    min-height: 300px;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-bottom: 120px;
+}
+
+.history-link-text {
+    color: #9e9e9e !important;
+    font-size: 20px;
+}
+
+.history-link-text i {
+    color: #9e9e9e !important;
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.history-link-text:hover {
+    text-decoration: none;
+}
+
+/*New Weblink Css*/
+            .nav-sexy-button{
+              width: 50%;
+              float: left;
+              padding-right: 10px;
+              margin-top:0px;
+            }
+            .nav-sexy-button a{
+              background-image: linear-gradient(to right, #9d0085, #86057e, #6f0876, #590a6d, #430a63);
+            }
+            .nav-sexy-button a:hover {
+              background-image: linear-gradient(to right, #91017b, #790472, #610668, #4b065c, #350550);
+            }
+            .nav-sa-button{
+              width: 50%;
+              float: left;
+              padding-left: 10px;
+              margin-top:0px;
+            }
+            .nav-sa-button a{
+              background-image: linear-gradient(to right, #439281, #398071, #306e61, #275d51, #1e4c42);
+            }
+            .nav-sa-button a:hover {
+              background-image: linear-gradient(to right, #397e6f, #316e60, #285e52, #214e44, #193f37);
+            }
+            .nav-ufa-button a{
+                background: rgb(190,24,24);
+                background: linear-gradient(90deg, rgba(190,24,24,1) 0%, rgba(147,34,34,1) 100%);
+            }
+            .nav-ufa-button a:hover {
+                background: rgb(190,24,24);
+                background: linear-gradient(90deg, rgba(190,24,24,1) 0%, rgb(255, 51, 51) 100%);
+            }
+            .othergames a {
+                color: #fff !important;
+                font-size: 22px;
+                border-radius: 12px;
+                width: 100%;
+                float: left;
+                text-align: center;
+                padding: 5px 0px 5px 0px;
+                cursor: pointer;
+            }
+            .othergames i{
+              font-size:16px;
+            }
+            .othergames a:link {
+              text-decoration: none;
+              cursor: pointer;
+            }
+          /*New Weblink Css*/
+
+/*FIX BOTTOM NAV*/
+
+.fix-nav-bottom {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+    background: #29292B;
+}
+
+.fix-nav-bottom ul li {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 12px 0 10px 0;
+}
+
+.fix-nav-bottom ul li:hover {
+    background-color: #656565;
+}
+
+.fix-nav-bottom ul li a {
+    color: #ffffff;
+}
+
+.fix-nav-bottom ul li i {
+    font-size: 20px;
+}
+
+.fix-nav-bottom ul li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fix-nav-bottom ul li p {
+    margin-bottom: 0px;
+    margin-top: -4px;
+    font-size: 20px;
+}
+
+.fix-nav-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fix-nav-bottom-play {
+    background-color: #353a40;
+}
+
+.scroll-text {
+    background-color: #101010;
+    background: url(../images/bg-nav.jpg);
+    padding: 5px 0px 0px 0px;
+}
+
+.scroll-text a {
+    color: #fff !important;
+    font-size: 20px;
+}
+
+
+/*NAVBAR*/
+
+.header-logo {
+    max-width: 100%;
+    margin-bottom: -100px;
+    margin-top: -30px;
+}
+
+.top-nav {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.navbar {
+    background-color: #000;
+    background: url(../images/bg-nav.jpg);
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 8px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.top-nav ul li {
+    text-align: center;
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav ul li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.top-nav ul li a {
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DB-Heavent-regular;
+}
+
+.top-nav ul li i {
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-nav ul li p {
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DB-Heavent-regular;
+    margin-top: -6px;
+    font-size: 20px;
+}
+
+.top-nav ul li:hover p,
+.top-nav ul li:hover i {
+    background: -webkit-linear-gradient(#fdf68f, #d18b31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*SLIDE SECTION*/
+
+.slide {
+    background-color: #000000;
+}
+
+.slide-img img {
+    width: 100%;
+}
+
+
+/*MAIN DASHBOARD*/
+
+section.user-infor {
+    margin-bottom: 10px;
+}
+
+section.user-infor a {
+    font-size: 24px;
+}
+
+span.reset-password {
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #989898;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2px 6px 2px 6px;
+}
+
+span.reset-password i {
+    font-size: 14px;
+    color: #fff;
+}
+
+.credit-box {
+    background: rgb(56, 56, 56);
+    background: url(../images/bg-nav.jpg);
+    padding: 15px 30px 15px 30px;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2)
+}
+
+.credit-box p {
+    font-size: 70px;
+    margin-bottom: -18px;
+    margin-top: -35px;
+    background: -webkit-linear-gradient(#fdf68f, #d18b31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.credit-box .refresh{
+    background: -webkit-linear-gradient(#fdf68f, #d18b31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.credit-box small {
+    font-size: 28px;
+    color: #fff;
+}
+
+.depo-wit {
+    display: none;
+}
+
+.button-box {
+    width: 50%
+}
+
+.amount-box {
+    width: 50%
+}
+
+.button-box a {
+    font-size: 22px;
+    padding: 4px 0px 4px 0px;
+}
+
+.navigation {
+    margin-top: 15px;
+}
+.othergame {
+    margin-top: 15px;
+}
+.nav-play-button {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+@keyframes morph {
+    0% {
+        background-color: rgba(177, 9, 4, 1);
+    }
+    50% {
+        background-color: rgba(242, 23, 1, 1);
+    }
+    100% {
+        background-color: rgba(177, 9, 4, 1);
+    }
+}
+
+.play-button {
+    padding: 120px 10px 112px 10px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(177, 9, 4);
+    background: linear-gradient(90deg, rgba(177, 9, 4, 1) 0%, rgba(242, 23, 1, 1) 100%);
+    /*background-color: rgba(177, 9, 4, 1) !important;
+    animation: morph 0.5s linear 0.5s infinite !important;*/
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    font-size: 42px;
+}
+
+.play-button:hover {
+    background: rgb(154, 11, 7);
+    background: linear-gradient(90deg, rgb(154, 11, 7) 0%, rgb(189, 25, 9) 100%);
+}
+
+.play-button i {
+    font-size: 85px;
+    color: #fff;
+}
+
+.play-button p {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: -6px;
+}
+
+.nav-other-button {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+
+.nav-other-button a {
+    color: #fff !important;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 100%;
+    float: left;
+}
+
+.other-list i {
+    font-size: 32px;
+    margin-top: 8px;
+}
+
+.other-list p {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: -6px;
+}
+
+.btn-dark-tri {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #232323;
+    background: url(../images/bg-nav.jpg);
+    padding: 6px 0px 6px 0px;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark-tri:hover {
+    text-decoration: none;
+}
+
+.btn-dark-tri:hover i,
+.btn-dark-tri:hover p,
+.btn-dark-tri:hover span {
+    background: -webkit-linear-gradient(#fdf68f, #d18b31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.other-list-full {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.other-list-1 {
+    width: 50%;
+    padding-right: 7.5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.other-list-2 {
+    width: 50%;
+    padding-left: 7.5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.other-list-3 {
+    width: 50%;
+    padding-right: 7.5px;
+    float: left;
+}
+
+.other-list-4 {
+    width: 50%;
+    padding-left: 7.5px;
+    float: left;
+}
+
+section.gameslist {
+    margin-top: 20px;
+}
+
+.show-games p {
+    color: #4e4e4e;
+    font-size: 24px;
+    margin-bottom: -6px;
+}
+
+.show-games i {
+    color: #4e4e4e;
+    font-size: 20px;
+}
+
+.show-games a:hover {
+    text-decoration: none;
+}
+
+
+/*Game List*/
+
+.row.games-row {
+    padding: 10px;
+}
+
+.games-list img {
+    opacity: 1;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.games-list {
+    position: relative;
+}
+
+.games-row>.col-md-2 {
+    padding: 5px;
+}
+
+.games-row>.col-sm-3 {
+    padding: 5px;
+}
+
+.games-row>.col-4 {
+    padding: 4px;
+}
+
+.btn-gameslist {
+    background: rgb(177, 9, 4);
+    background: linear-gradient(90deg, rgba(177, 9, 4, 1) 0%, rgba(242, 23, 1, 1) 100%);
+}
+
+.btn-gameslist:hover,
+.btn-gameslist:active,
+.btn-gameslist:focus,
+.btn-gameslist:visited {
+    background: rgb(154, 11, 7);
+    background: linear-gradient(90deg, rgb(154, 11, 7) 0%, rgb(189, 25, 9) 100%);
+    text-decoration: none;
+}
+
+a.btn-gameslist {
+    color: #ffffff !important;
+    font-size: 18px;
+    min-width: 90px;
+}
+
+a.btn-gameslist i {
+    font-size: 14px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    text-align: center;
+}
+
+.games-list .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.games-list:hover .overlay {
+    opacity: 1;
+}
+
+.games-list:hover .image {
+    opacity: 1;
+}
+
+.games-list:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.games>.row>.col-md-2 {
+    padding: 5px !important;
+}
+
+.games>.row {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a#show,
+a#hide {
+    cursor: pointer;
+}
+[v-cloak] > * { 
+    display: none;
+}
+.pointer{
+    cursor: pointer;
+}
+/*DOPOSIT*/
+
+.bank-box {
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.wallet-box{/*เพิ่มใหม่*/
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+    cursor: pointer;
+  }
+
+.scb {
+    background-color: #551C85;
+}
+.kbank{
+    background-color: #138f2d;
+}
+.bay{
+    background-color: #fec43b;
+}
+
+.bank-info {
+    margin-top: 15px;
+}
+
+.bank-info-text {
+    width: 60%;
+    float: left;
+}
+
+.bank-info-text small {
+    font-size: 24px;
+}
+
+.bank-info-text p {
+    font-size: 42px;
+    margin-top: -18px;
+    margin-bottom: 0px;
+}
+
+p.bank-acc-num {
+    font-size: 60px;
+    margin-top: -32px;
+    margin-bottom: -25px;
+    font-family: DB-Heavent-regular;
+}
+
+.bank-info-copy {
+    width: 40%;
+    float: left;
+}
+
+p.bank-acc-name {
+    margin-bottom: -16px;
+    font-family: DB-Heavent-regular;
+}
+
+.copy-button {
+    padding: 32px 10px 24px 10px;
+    border: none;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.copy-button p {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: -6px;
+}
+
+.copy-button i {
+    font-size: 30px;
+}
+
+.bank-user-logo img {
+    max-width: 80px;
+}
+
+.bank-user-logo {
+    width: 10%;
+    float: left;
+    min-width: 80px;
+}
+
+.bank-user-info {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}
+
+.bank-user-info p {
+    margin-bottom: 0px;
+}
+
+p#bank-user-name {
+    font-size: 26px;
+    margin-top: -8px;
+}
+
+p#bank-user-number {
+    font-size: 25px;
+    margin-top: -14px;
+}
+
+p#bank-user-bankname {
+    font-size: 20px;
+}
+
+
+/*WITHDRAW*/
+
+.withdraw-form {
+    margin-top: 15px;
+}
+
+.user-bank {
+    margin-top: 15px;
+}
+
+.bank-user-logo i {
+    font-size: 50px;
+}
+
+
+/*HISTORY*/
+
+div#myTabContentJust {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding-top: 30px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+
+.tab-pane p {
+    margin-bottom: 0px;
+}
+
+.list-left {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.list-left h5 {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+p.chanel {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+p.datetime {
+    font-size: 14px;
+}
+
+.list-right {
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+
+.icon-history-box {
+    margin-right: 10px
+}
+
+.icon-history-box i {
+    font-size: 65px !important;
+}
+
+.btn-successed {
+    font-size: 12px;
+    padding: 0px 6px;
+    margin-bottom: 4px;
+    font-family: DB-Heavent-light;
+}
+
+.btn-successed i {
+    font-size: 10px !important;
+}
+
+.list-right p {
+    font-size: 30px;
+    margin-bottom: -18px;
+}
+
+.list-right small {
+    font-size: 18px;
+}
+
+.bg-even {
+    background-color: #ffffff;
+}
+
+.bg-odd {
+    background-color: #f7f7f7;
+}
+
+.list-box {
+    padding: 5px 15px 5px 15px;
+}
+
+.page-link {
+    font-size: 20px !important;
+}
+
+.prenext {
+    padding: 2px 12px;
+    font-size: 30px !important;
+}
+
+.md-tabs a {
+    font-size: 24px;
+}
+
+
+/*MD TAB*/
+
+.md-tabs {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    border: 0;
+    margin-bottom: -20px;
+    background-color: #2bbbad;
+    z-index: 1;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.indigo {
+    background-color: #ea041d!important;
+}
+
+.nav-justified .nav-item {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.md-tabs .nav-item.open .nav-link,
+.md-tabs .nav-link.active {
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
+    transition: all 1s;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.md-tabs .nav-link {
+    transition: all .4s;
+    border: 0;
+    color: #fff;
+}
+
+.tab-content {
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 0px;
+}
+
+
+/*MD TAB*/
+
+
+/*Affiliate*/
+
+.affiliate-box {
+    padding: 15px 30px 15px 30px;
+    background: rgb(56, 56, 56);
+    background: url(../images/bg-nav.jpg);
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.affiliate-amount-box small {
+    font-size: 28px;
+    color: #fff;
+}
+
+.affiliate-amount-box p {
+    font-size: 70px;
+    margin-bottom: -18px;
+    margin-top: -35px;
+    color: #fff;
+}
+
+
+/*Aff Dashboard*/
+
+.s-with {
+    padding-right: 7.5px !important;
+}
+
+.s-recom {
+    padding-right: 7.5px !important;
+    padding-left: 7.5px !important;
+}
+
+.s-click {
+    padding-left: 7.5px !important;
+}
+
+.stat {
+    margin-top: 15px;
+}
+
+.stat-content {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0px 0 5px;
+}
+
+.stat-description {
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+
+.stat-footer {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    ;
+    color: rgba(255, 255, 255, 0.5) !important;
+    ;
+    display: block;
+    padding: 0px;
+    transition: all 0.3s ease-in-out 0s;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+a.stat-footer {
+    font-size: 20px;
+}
+
+.stat-description a {
+    font-size: 26px;
+}
+
+.stat-number a {
+    font-size: 46px;
+}
+
+.dark-blue {
+    background-color: #34495E;
+}
+
+.green {
+    background-color: #16A085;
+}
+
+.blue {
+    background-color: #2980B9;
+}
+
+.orange {
+    background-color: #F39C12;
+}
+
+.red {
+    background-color: #E74C3C;
+}
+
+.purple {
+    background-color: #8E44AD;
+}
+
+.dark-gray {
+    background-color: #7F8C8D;
+}
+
+.gray {
+    background-color: #95A5A6;
+}
+
+.light-gray {
+    background-color: #BDC3C7;
+}
+
+.yellow {
+    background-color: #F1C40F;
+}
+
+.text-dark-blue {
+    color: #34495E;
+}
+
+.text-green {
+    color: #16A085;
+}
+
+.text-blue {
+    color: #2980B9;
+}
+
+.text-orange {
+    color: #F39C12;
+}
+
+.text-red {
+    color: #E74C3C;
+}
+
+.text-purple {
+    color: #8E44AD;
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.afflink {
+    margin-top: 15px;
+}
+
+.btn-aff-copy i {
+    font-size: 16px;
+}
+
+.tranferaff {
+    margin-top: 15px;
+}
+
+.tranferaff a {
+    font-size: 40px;
+    padding: 0px;
+}
+
+p.marketing-tool {
+    font-size: 30px;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    background: url(../images/bg-nav.jpg);
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    color: #ececec;
+    font-family: DB-Heavent-regular;
+}
+
+.share-list i {
+    font-size: 48px;
+    margin: 0px 10px 0px 10px;
+}
+
+.aff-history {
+    margin-top: 15px;
+}
+
+.other-m a {
+    margin-bottom: 9px;
+}
+
+
+/*Bonus*/
+
+.bonus-body p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.bonus-body h4 {
+    font-size: 26px;
+    margin-bottom: -6px;
+}
+
+.bonus-alert {
+    padding: 0px 0px 2px 0px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.bonus-alert a {
+    font-size: 14px !important;
+}
+
+.card.bonus {
+    margin-bottom: 15px;
+}
+h4.ql-align-center {
+    margin-bottom: 0px !important;
+    line-height: 20px;
+}
+h2.ql-align-center {
+    margin-bottom: -5px !important;
+}
+.swal2-actions {
+    margin-top: 15px !important;
+}
+.swal2-content {
+    margin-bottom: -10px !important;
+}
+#swal2-content>.mt-3.mb-4 {
+    margin-bottom: 0px !important;
+    margin-top: 5px !important;
+}
+h2#swal2-title {
+    margin-bottom: 0px;
+}
+.swal2-icon.swal2-error.swal2-animate-error-icon,
+.swal2-icon.swal2-success.swal2-animate-success-icon {
+    margin: 0px 0px 10px 0px;
+}
+
+
+/*Login*/
+
+
+/*Register*/
+
+.login h4,
+.register h4,
+.reset-password h4 {
+    font-size: 44px;
+    margin-bottom: 0px !important;
+}
+
+.login hr,
+.register hr,
+.reset-password hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login a,
+.register a,
+.reset-password a {
+    font-size: 20px;
+}
+
+
+/* Media Queries*/
+
+@media (max-width: 575px) {
+    .card,
+    .container.content,
+    .credit-box,
+    .play-button,
+    .bank-box,
+    .copy-button,
+    .btn-withdraw,
+    .input-group-text,
+    .bank-user-logo i,
+    .deposit-mobile-button a,
+    .withdraw-mobile-button a {
+        border-radius: 12px;
+    }
+    .fix-nav-bottom ul li {
+        padding: 8px 0 4px 0;
+    }
+    .fix-nav-bottom ul li p {
+        margin-bottom: 0px;
+        margin-top: -4px;
+        font-size: 16px;
+    }
+    .top-nav ul li p {
+        display: none;
+    }
+    .slide>.container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    main {
+        padding: 12px;
+    }
+    .navbar {
+        padding: 0px;
+    }
+    .container.content {
+        margin-top: -40px;
+        min-height: 300px;
+        padding: 10px 10px 10px 10px;
+    }
+    .credit-box {
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+    .credit-box p {
+        font-size: 60px;
+        margin-bottom: -18px;
+        margin-top: -35px;
+    }
+    .credit-box small {
+        font-size: 24px;
+    }
+    .button-box {
+        display: none;
+    }
+    .depo-wit {
+        display: block;
+        margin-top: 10px;
+    }
+    .wallet-announce a {
+        font-size: 15px;
+    }
+    .deposit-mobile-button {
+        width: 50%;
+        float: left;
+        padding-right: 5px;
+    }
+    .withdraw-mobile-button {
+        width: 50%;
+        float: left;
+        padding-left: 5px;
+    }
+    .deposit-mobile-button a {
+        color: #fff !important;
+        font-size: 30px;
+        padding-top: 4px;
+    }
+    .withdraw-mobile-button a {
+        color: #6f6f6f !important;
+        font-size: 30px;
+        padding-top: 4px;
+    }
+    .deposit-mobile-button i {
+        color: #fff !important;
+        font-size: 20px;
+    }
+    .withdraw-mobile-button i {
+        color: #6f6f6f !important;
+        font-size: 20px;
+    }
+    .deposit-mobile-button a,
+    .deposit-mobile-button i {
+        color: #6f4b15 !important;
+    }
+    .amount-box {
+        width: 100%
+    }
+    .navigation {
+        margin-top: 10px;
+    }
+    .nav-play-button {
+        padding-right: 0px;
+    }
+    .play-button {
+        padding: 16px 10px 10px 10px;;
+    }
+    .play-button p {
+        font-size: 28px;
+        margin-bottom: 0px;
+        margin-top: -15px;
+    }
+    .play-button i {
+        font-size: 40px;
+        color: #fff;
+    }
+    .nav-other-button {
+        padding-left: 5px;
+        color: #fff !important;
+        font-size: 20px;
+        border-radius: 12px;
+    }
+    .user-bank {
+        margin-top: 10px;
+    }
+    .bank-info {
+        margin-top: 10px;
+    }
+    .bank-info-text {
+        width: 100%;
+    }
+    .bank-info-text small {
+        font-size: 20px;
+    }
+    .bank-info-text p {
+        font-size: 26px;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+    p.bank-acc-num {
+        font-size: 38px;
+        margin-bottom: -20px;
+        margin-top: -16px;
+    }
+    .bank-info-copy {
+        width: 30%;
+    }
+    p.bank-acc-name {
+        margin-bottom: -10px;
+    }
+    .copy-button {
+        padding: 24px 10px 14px 10px;
+    }
+    .copy-button p {
+        font-size: 24px;
+        margin-bottom: 0px;
+        margin-top: -6px;
+    }
+    .copy-button i {
+        font-size: 30px;
+    }
+    .bank-box {
+        padding: 15px 15px 15px 15px;
+    }
+    .wallet-box {
+        padding: 15px 15px 15px 15px;
+    }
+    .card-header:first-child {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    .withdraw-form {
+        margin-top: 10px;
+    }
+    .btn-withdraw {
+        margin-top: 10px;
+    }
+    h5.card-header {
+        text-align: center;
+        font-size: 20px;
+        padding: 5px 5px;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .bank-user-logo img {
+        max-width: 100%;
+    }
+    .bank-user-logo {
+        width: 10%;
+        float: left;
+        min-width: 70px;
+    }
+    .bank-user-info {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+    .bank-user-info p {
+        margin-bottom: 0px;
+    }
+    p#bank-user-name {
+        font-size: 20px;
+        margin-top: -8px;
+    }
+    p#bank-user-number {
+        font-size: 22px;
+        margin-top: -8px;
+    }
+    p#bank-user-bankname {
+        font-size: 20px;
+    }
+    .input-group-text {
+        font-size: 20px;
+    }
+    div#myTabContentJust {
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        padding-top: 25px !important;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .bank-user-logo i {
+        font-size: 46px;
+    }
+    .list-left h5 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+    .btn-successed {
+        font-size: 10px;
+        padding: 0px 6px;
+        margin-bottom: 4px;
+        font-family: DB-Heavent-light;
+    }
+    .btn-successed i {
+        font-size: 8px !important;
+    }
+    .icon-history-box i {
+        font-size: 44px !important;
+    }
+    p.chanel {
+        font-size: 14px;
+        margin-bottom: -8px;
+        font-family: DB-Heavent-regular;
+    }
+    p.datetime {
+        font-size: 12px;
+        font-family: DB-Heavent-regular;
+    }
+    .icon-history-box {
+        margin-right: 6px;
+    }
+    .list-right p {
+        font-size: 24px;
+        margin-bottom: -18px;
+    }
+    .list-box {
+        padding: 5px 10px 5px 10px;
+    }
+    .page-link {
+        font-size: 12px !important;
+    }
+    .prenext {
+        padding: 2px 8px;
+        font-size: 22px !important;
+    }
+    .md-tabs a {
+        font-size: 20px;
+    }
+    a.btn-line {
+        font-size: 16px;
+    }
+    .stat-number a {
+        font-size: 30px;
+    }
+    .stat-description a {
+        font-size: 18px;
+    }
+    a.stat-footer {
+        font-size: 16px;
+    }
+    input.form-control.afflink-input {
+        font-size: 12px;
+    }
+    .btn-aff-copy {
+        font-size: 20px;
+    }
+    .btn-aff-copy i {
+        font-size: 14px;
+    }
+    p.marketing-tool {
+        font-size: 26px;
+        background-color: #e9ecef;
+        border-radius: 12px;
+        margin-bottom: 10px;
+        padding-top: 4px;
+    }
+    .share-list i {
+        font-size: 46px;
+        margin: 0px 10px 0px 10px;
+    }
+    .bonus-body a {
+        font-size: 16px;
+    }
+    .card.bonus {
+        margin-bottom: 10px;
+    }
+    a.float-right.btn.btn-outline-primary {
+        font-size: 18px;
+        padding-bottom: 2px;
+        padding-top: 5px;
+        margin-top: 4px;
+    }
+    .login h4,
+    .register h4,
+    .reset-password h4 {
+        font-size: 36px;
+        margin-bottom: 0px !important;
+        margin-top: -4px !important;
+    }
+    .bonus-body p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .login>.form-group {
+        margin-bottom: 10px !important;
+    }
+    .header-logo {
+        max-width: 65%;
+        margin-bottom: -36px;
+        margin-top: 0px;
+    }
+    .top-nav ul li i {
+        font-size: 30px;
+    }
+    .navbar {
+        padding: 0px;
+        height: 70px;
+    }
+    .scroll-text {
+        background-color: #101010;
+        padding: 4px 0px 0px 0px;
+    }
+    .scroll-text a {
+        font-size: 18px;
+    }
+    section.user-infor a {
+        font-size: 20px;
+    }
+    span.reset-password {
+        cursor: pointer;
+        font-size: 16px;
+        background-color: #989898;
+        color: #fff;
+        border-radius: 6px;
+        padding: 2px 6px 2px 6px;
+    }
+    span.reset-password i {
+        font-size: 12px;
+        color: #fff;
+    }
+    .row.games-row {
+        padding: 8px;
+    }
+    .login a,
+    .register a,
+    .reset-password a {
+        font-size: 16px;
+    }
+    form.login button {
+        font-size: 28px;
+        padding: 4px;
+    }
+    .list-contact-left h5 {
+        margin-top: 2px;
+        margin-bottom: -6px;
+    }
+    /*New*/
+    .nav-play-button {
+        width: 100%;
+        float: none;
+    }
+    .nav-other-button {
+        width: 100%;
+        float: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 10px;
+    }
+    .other-list i {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+    .other-list p {
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: -6px;
+    }
+    .other-list-1 {
+        width: 50%;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .other-list-2 {
+        width: 50%;
+        padding-left: 5px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .other-list-3 {
+        width: 50%;
+        padding-right: 5px;
+        margin-bottom: 0px;
+        float: left;
+    }
+    .other-list-4 {
+        width: 50%;
+        padding-left: 5px;
+        margin-bottom: 0px;
+        float: left;
+    }
+    .nav-sexy-button {
+        width: 50%;
+        float: left;
+        padding-right: 5px;
+        margin-top: 0px;
+    }
+    .othergame{
+        margin-top:10px;
+        padding-left: 0px;
+        
+    }
+    .nav-ufa-button {
+        width: 50%;
+        float: left;
+        padding-left: 5px;
+        margin-top: 0px;
+    }
+    footer {
+        margin-bottom: 100px;
+    }
+    .rewards-table {
+        font-size: 12px;
+    }
+    .rewards-desc h2 {
+        font-size: 18px;
+    }
+    .page-title h3 {
+        margin: 12px 0px 2px 0px;
+        line-height: 40px;
+        font-size: 22px !important;
+    }
+    .row.text-center.page-title {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    main {
+        padding: 30px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+    main {
+        padding: 40px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+
+
+
+  .bank-box{/*แก้ไขของเดิม*/
+    width: 49%;
+    float: left;
+    margin-right:1%;
+    cursor: pointer;
+  }
+  .true {/*เพิ่มใหม่*/
+      background: rgb(222,222,222);
+      background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(245,246,247,1) 100%);
+  }
+  .true-wallet{/*เพิ่มใหม่*/
+    margin-top: 15px;
+  }
+  .grayscale{/*เพิ่มใหม่*/
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  .truewallet-text{/*เพิ่มใหม่*/
+    color: #F5831E;
+  }
+  .wallet-announce{/*เพิ่มใหม่*/
+    margin-top: 15px;
+    font-size: 24px;
+    color: #A6100A;
+  }
+  .btn-truewallet{/*เพิ่มใหม่*/
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 6px;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: #fff !important;
+    background: rgb(177, 9, 4);
+    background: linear-gradient(90deg, rgba(177, 9, 4, 1) 0%, rgba(242, 23, 1, 1) 100%);
+    
+  }
+  .btn-truewallet:hover {/*เพิ่มใหม่*/
+      color: #fff;
+      background: rgb(154, 11, 7);
+      background: linear-gradient(90deg, rgb(154, 11, 7) 0%, rgb(189, 25, 9) 100%);
+      text-decoration: none;
+  }
+  .btn-truewallet i{/*เพิ่มใหม่*/
+    font-size: 20px;
+  }
+  input#wallet-number,input#amount {/*เพิ่มใหม่*/
+      font-size: 22px;
+  }
+  button#confirm i,button#cancel i{/*เพิ่มใหม่*/
+      font-size: 18px;
+  }
+  .bank-info-copy {
+      width: 100%;
+      float: none;
+  }
+  .copy-button {
+      margin-top: 10px;
+      padding: 6px 10px 0px 10px;
+      border: none;
+      -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+  .copy-button i{
+    font-size: 18px;
+  }
+  .list-contact-left {
+    width: 70%;
+    float: left;
+  }
+  .list-contact-right {
+    width: 30%;
+    float: left;
+  }
+  .list-contact-left h5 {
+    margin-top: 10px;
+    margin-bottom: -6px;
+  }
+  .list-contact-right p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+    .games-nav {
+        width: 100%;
+        background-color: #101010;
+        background: url(../images/bg-nav.jpg);
+        border-radius: 12px;
+    }
+    .games-nav-list {
+        width: 25%;
+        float: left;
+    }
+    .games-nav-list-first img {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+  /*Promotion*/
+
+.row.text-center.page-title {
+    background-color: #000;
+    background: url(../images/bg-nav.jpg)top center repeat-x;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.page-title h3 {
+    width: 100%;
+    margin: 12px 0px 2px 0px;
+    font-family: 'sdchokdee-Regular';
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 40px;
+}
+
+.promotion-list>.card>img.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.promotion-list>.card {
+    border: none;
+}
+
+.promotion-list>.card>.card-body>p.card-text {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.promotion-list>.card>.card-body>.w-100 a,
+.promotion-list>.card>.card-body>.w-50 a,
+.promotion-list>.card>.card-body>.w-35 a,
+.promotion-list>.card>.card-body>.w-30 a {
+    font-size: 17px;
+}
