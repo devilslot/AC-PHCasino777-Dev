@@ -143,7 +143,7 @@ function check_bank_num($bank_number)
 
     global $mysqli;
 
-    $stmt = $mysqli->prepare("SELECT * FROM `members` WHERE member_bank_number = ?");
+    $stmt = $mysqli->prepare("SELECT * FROM `members` WHERE member_bank_account = ?");
 
     $stmt->bind_param("s", $bank_number);
 
