@@ -15,10 +15,12 @@ $pg = include(__DIR__ . '/config/pg.php');
 $bank_list = $mysqli->query("SELECT * FROM m_bank ORDER BY id");
 $num_row = mysqli_num_rows($bank_list);
 
+$aff_upline = $_GET['aff'];
+
+// echo "AFF => $aff_upline";
 //print_r($bank_list);
 //echo 'num_row : ' . $bank_list->num_rows;
-
-
+// exit();
 
 ?>
 
@@ -27,44 +29,8 @@ $num_row = mysqli_num_rows($bank_list);
 <html lang="th">
 
 <head>
-    <title><?= $site['title'] ?></title>
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="สล็อต, สล็อตออนไลน์, เกมสล็อตมือถือ, สล็อตแจกเครดิตฟรี, เกมสล็อต, slotgame66, เกมส์slot, สล็อตออนไลน์ฟรี, เกมส์สล็อตมือถือ, สล็อตฟรีเครดิต, แจกเครดิตฟรีเล่นสล็อต, สล็อต, slot, สล็อตออโต้, สล็อตระบบออโต้, slot auto, sagame, sagaming, slotpg, gamingsoft, คาสิโน, คาสิโนออนไลน์, sexy baccarat">
-    <meta name="description" content="slotgame66 เราคือเจ้าแรกที่ทำระบบ สล็อตออนไลน์ ไม่ต้องโหลดแอพ เล่นได้ทันทีฝาก-ถอน AUTO แจกเครดิตฟรี 500 user ทุกวัน เกมส์สล็อต บนมือถือ">
-    <meta name="author" content="SLOTGAME66">
-    <link rel="icon" type="image/ico" href="<?= $site['host'] ?>/assets/sl66/images/icon.png"> -->
-    <!--Cache-->
-    <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0"> -->
-    <!-- Facebook OG -->
-    <!-- <meta property="og:url" content="<?= $site['host'] ?>">
-    <meta property="og:type" content="game">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <link rel="icon" href="<?= $site['host'] ?>/assets/img/favicons/favicon.ico">
-    <meta name="csrf-token" content="t9AUEbD5Smmzfon3lfE3V2rIuK7zM01x1e6qYMBS"> -->
 
-    <!-- core CSS -->
-    <!-- Online CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.16/css/bootstrap-select.min.css" integrity="sha256-g19F2KOr/H58l6XdI/rhCdEK3NmB8OILHwP/QYBQ8M4=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vue-loading-overlay@3/dist/vue-loading.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css" integrity="sha256-2bAj1LMT7CXUYUwuEnqqooPb1W0Sw0uKMsqNH0HwMa4=" crossorigin="anonymous" />
-
-    <!-- Local CSS -->
-    <link rel="stylesheet" href="<?= $site['host'] ?>/assets/sl66/icons/icon.min.css">
-    <link rel="stylesheet" href="<?= $site['host'] ?>/assets/sl66/css/thbank/thbanklogos.css">
-    <link rel="stylesheet" href="<?= $site['host'] ?>/assets/sl66/css/thbank/thbanklogos-colors.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="<?= $site['host'] ?>/assets/sl66/css/style-dashboardv5.css">
-
-
+    <?php include(__DIR__ . '/include/head-sl66.php'); ?>
     <style>
         /* Start Youtube */
         .embed-container {
@@ -110,7 +76,7 @@ $num_row = mysqli_num_rows($bank_list);
                     <div class="col-2 p-0">
                         <div class="top-nav">
                             <ul>
-                                <li><a href="<?= $site['host'] ?>/auth/login"><i class="far fa-user-plus"></i>
+                                <li><a href="<?= $site['host'] ?>/login"><i class="far fa-user-plus"></i>
                                         <p>เข้าสู่ระบบ</p>
                                     </a></li>
                             </ul>
@@ -127,7 +93,7 @@ $num_row = mysqli_num_rows($bank_list);
         <div id="app">
             <main role="main">
                 <div class="container content">
-                    <section class="register"><a href="<?= $site['host'] ?>/auth/login" class="float-right btn btn-outline-red"><i class="far fa-sign-in-alt"></i>
+                    <section class="register"><a href="<?= $site['host'] ?>/login" class="float-right btn btn-outline-red"><i class="far fa-sign-in-alt"></i>
                             เข้าสู่ระบบ </a>
                         <h4 class="mb-4 mt-1">สมัครสมาชิก</h4>
                         <hr>
@@ -183,7 +149,7 @@ $num_row = mysqli_num_rows($bank_list);
                                             <option value="other">อื่นๆ</option>
                                         </select>
                                     </div>
-                                    <input name="aff_upline" id="aff_upline" type="hidden">
+                                    <input name="aff_upline" id="aff_upline" type="hidden" value="<?= $aff_upline ?>">
                                     <div class="form-group col-12">
                                         <button type="submit" id="submit" class="btn-red btn-lg btn-block"><i class="far fa-user-plus"></i> สมัครสมาชิก </button>
                                     </div>
@@ -199,49 +165,11 @@ $num_row = mysqli_num_rows($bank_list);
                     </section>
                 </div>
             </main>
-            <footer class="text-muted">
-                <div class="container text-center">
-                    <p>CopyRight © 2019, Slotgame66.com</p>
-                </div>
-            </footer>
-            <div class="fix-nav-bottom">
-                <div class="fix-nav-bottom">
-                    <div class="scroll-text">
-                        <marquee scrolldelay="100" onmouseover="this.stop();" onmouseout="this.start();" behavior="" direction=""><a>เกมส์สล๊อตออนไลน์ เกมส์ออนไลน์ ได้เงินจริงได้เงินไว เกมส์สล๊อตออนไลน์ที่ดีที่สุดตอนนี้ SLOTGAME66.COM ภาพเกมส์แบบใหม่ที่ภาพกราฟฟิคสวยงามสมจริง สามารถเล่นผ่านเว็บบราวเซอร์</a></marquee>
-                    </div>
-                    <div class="container pr-0 pl-0">
-                        <ul>
-                            <li><a href="<?= $site['host'] ?>" class="hvr-buzz-out"><i class="fal fa-home"></i>
-                                    <p>หน้าแรก</p>
-                                </a></li>
-                            <li><a href="<?= $site['host'] ?>/promotion" class="hvr-buzz-out"><i class="fal fa-gift"></i>
-                                    <p>โปรโมชั่น</p>
-                                </a></li>
-                            <li class="fix-nav-bottom-play"><a href="<?= $site['host'] ?>/demo" class="hvr-buzz-out"><i class="fal fa-play"></i>
-                                    <p>ทดลองเล่น</p>
-                                </a></li>
-                            <li><a href="<?= $site['host'] ?>" class="hvr-buzz-out"><i class="fab fa-line"></i>
-                                    <p>ติดต่อเรา</p>
-                                </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <?php include(__DIR__ . '/include/foot-nav-sl66.php'); ?>
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js" integrity="sha256-CPLvnJ0LSBm+lJAUh4bBMpJ1lUa3QsTfdgCAUHyBv2w=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.16/js/bootstrap-select.min.js" integrity="sha256-COIM4OdXvo3jkE0/jD/QIEDe3x0jRuqHhOdGTkno3uM=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue-loading-overlay@3.3.2/dist/vue-loading.min.js" integrity="sha256-Ku+FjJnSLHZRaPUDmql8GAnZVGyzfyZQeM6S32ISNII=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js" integrity="sha256-2RS1U6UNZdLS0Bc9z2vsvV4yLIbJNKxyA4mrx5uossk=" crossorigin="anonymous"></script>
-    <script src="<?= $site['host'] ?>/assets/sl66/js/v14/app.js"></script>
+    <?php include(__DIR__ . '/include/footer-sl66.php'); ?>
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -257,6 +185,7 @@ $num_row = mysqli_num_rows($bank_list);
                 var last_name = $("#last_name").val();
                 var line_id = $("#line_id").val();
                 var source = $("#source").val();
+                var aff_upline = $("#aff_upline").val();
 
                 $.ajax({
                     type: "POST",
@@ -270,26 +199,56 @@ $num_row = mysqli_num_rows($bank_list);
                         first_name: first_name,
                         last_name: last_name,
                         line_id: line_id,
-                        source: source
+                        source: source,
+                        aff_upline: aff_upline
                     },
                     success: function(data) {
-                        if (data.code == "200") {
-                            swal.fire('Success!!!!', 'ยินดีต้อนรับสมาชิกใหม่ค่ะ', 'success');
-                            setTimeout((function() {
-                                window.location.href = "<?=$site['host']?>/user/dashboard";                                                           
-                            }), 3000);
-                            //location.reload();
-                            // Go to profile or dashboard page
-                            // Coding here...
-                        }                        
-                        if (data.code == "400") {
-                            swal.fire('ข้อมูลซ้ำ', data.msg, 'error');
-                        } 
-                        if (data.code == "401") {
-                            swal.fire('ข้อมูลไม่สมบูรณ์', data.msg, 'error');
-                        } 
-                        if (data.code == "402") {
-                            swal.fire('ข้อมูลไม่ถูกต้อง', data.msg, 'error');
+                        switch (data.code) {
+                            case 200:
+
+                                let timerInterval
+                                Swal.fire({
+                                    title: 'สมัครสมาชิกเรียบร้อย!!!<BR><BR>ยินดีต้อนรับสมาชิกใหม่ค่ะ<BR>',
+                                    html: '<img src="http://ac-dev.myserver.local/assets/sl66/images/right-bar-aff.gif"><BR><BR>กำลังเข้าสู่เว็บไซต์...',
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onBeforeOpen: () => {
+                                        Swal.showLoading()
+                                        timerInterval = setInterval(() => {
+                                            // const content = Swal.getContent()
+                                            // if (content) {
+                                            //     const b = content.querySelector('b')
+                                            //     if (b) {
+                                            //         b.textContent = Swal.getTimerLeft()
+                                            //     }
+                                            // }
+                                        }, 100)
+                                    },
+                                    onClose: () => {
+                                        clearInterval(timerInterval)
+                                    }
+                                }).then((result) => {
+                                    /* Read more about handling dismissals below */
+                                    if (result.dismiss === Swal.DismissReason.timer) {
+                                        window.location.href = "<?= $site['host'] ?>/user/dashboard";
+                                    }
+                                })
+                                break;
+                            case 400:
+                                swal.fire('ข้อมูลซ้ำ', data.msg, 'error');
+                                break;
+                            case 401:
+                                swal.fire('ข้อมูลไม่สมบูรณ์', data.msg, 'error');
+                                break;
+                            case 402:
+                                swal.fire('ข้อมูลไม่ถูกต้อง', data.msg, 'error');
+                                break;
+                            case 404:
+                                swal.fire('ข้อมูลไม่ถูกต้อง', data.msg, 'error');
+                                break;
+                            default:
+                                swal.fire('เกิดข้อผิดพลาด กรุณาติดต่อ Call Center', data.msg, 'error');
+                                break;
                         }
                     }
                 });

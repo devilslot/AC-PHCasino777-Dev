@@ -37,7 +37,7 @@ if (empty($_POST['username'])) {
     $row = $result->fetch_assoc();
     $_SESSION['username'] = $row['member_username'];
     $_SESSION['member_login'] = $row['member_login'];
-    echo "<script>window.location = '/profile'</script>";
+    echo "<script>window.location = '/user/dashboard'</script>";
 }
 
 

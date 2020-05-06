@@ -6,7 +6,7 @@ function console_log($data)
     if (is_array($output))
         $output = implode(',', $output);
 
-    echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+    echo "Debug Objects: " . $output;
 }
 
 
@@ -135,6 +135,43 @@ function bank_name($str_bnk)
 
     return $str_bnk;
 }
+
+function get_member_no_aff_upline($p_aff_upline) {
+
+    global $mysqli;
+
+    $result = $mysqli->query("SELECT member_no FROM `members` WHERE member_login = '". $p_aff_upline . "'");
+    //->fetch_assoc();
+
+    $return_val = "";
+
+    if ($result->num_rows > 0) {
+        $result = $result->fetch_assoc();
+        $return_val = $result['member_no'];
+    } 
+
+
+    // $stmt = $mysqli->prepare("SELECT member_no FROM `members` WHERE member_login = ?");
+
+    // $stmt->bind_param("s", $p_aff_upline);
+
+    // $stmt->execute();
+
+    // $stmt->store_result();
+
+    // $return_val = "";
+
+    // if ($stmt->num_rows > 0) {
+
+    //     $return_val = $p_aff_upline;
+    // } else {
+
+    //     $return_val = NULL;
+    // }
+
+    return $return_val;
+}
+
 
 
 function check_bank_num($bank_number)
