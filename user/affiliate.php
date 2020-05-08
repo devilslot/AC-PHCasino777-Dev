@@ -15,7 +15,7 @@ $pg = include(__DIR__ . '/../config/pg.php');
 
 $sql_text = "SELECT * FROM members WHERE member_login='" . trim($_SESSION['member_login']) . "'";
 $row_getuser = $mysqli->query($sql_text)->fetch_assoc();
-
+$aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
 
 ?>
 
@@ -122,13 +122,13 @@ $row_getuser = $mysqli->query($sql_text)->fetch_assoc();
                     <div class="card-body">
 
 
-                        <!-- <div id="linkaff_" style="display: none;"><?= $site['host'] ?>/register.php?aff=<?= $row_getuser['member_login'] ?></div> -->
+                        <!-- <div id="linkaff_" style="display: none;"><?=$aff_link?></div> -->
                         <form method="POST">
                             <input type="hidden" name="task" value="aff_to">
                             <div class="form-group row">
                                 <label for="staticEmail" class="col-sm-2 col-form-label">Link แนะนำ </label>
                                 <div class="col-sm-8">
-                                    <input type="text" class="form-control" id="aff_link" value="<?= $site['host'] ?>/register.php?aff=<?= $row_getuser['member_login'] ?>" readonly="readonly" onclick="cpToClipboard()">
+                                    <input type="text" class="form-control" id="aff_link" value="<?=$aff_link?>" readonly="readonly" onclick="cpToClipboard()">
                                 </div>
                                 <div class="col-sm-2">
                                     <a style="displayx: none; color: white" class="btn btn-block btn-dark-green btn- lg btn-co py ml-0" onclick="cpToClipboard()"><i class="far fa-copy"></i> คัดลอก link</a>
@@ -186,7 +186,7 @@ $row_getuser = $mysqli->query($sql_text)->fetch_assoc();
                                 <tr>
                                     <td class="tt_l tt_full fr_tx1" style="width: 33%;colzozr: white; border: none;">
                                         <center>
-                                            <a class="afflink1" href="https://social-plugins.line.me/lineit/share?url=<?= $site['host'] ?>/register.php?aff=<?= $row_getuser['member_login'] ?>" style="    text-decoration: none;colssor: white" target="b_">
+                                            <a class="afflink1" href="https://social-plugins.line.me/lineit/share?url=<?=$aff_link?>" style="    text-decoration: none;colssor: white" target="b_">
                                                 <img src="<?= $site['host'] ?>/assets/sag66/images/line-icon.png" style="max-width: 80%;width: 100px;">
                                                 <br>แนะนำผ่าน LINE
                                             </a>
@@ -194,7 +194,7 @@ $row_getuser = $mysqli->query($sql_text)->fetch_assoc();
                                     </td>
                                     <td class="tt_l tt_full fr_tx1" style="width: 33%;cozlozr: white; border: none;">
                                         <center>
-                                            <a class="afflink2" href="fb-messenger://share/?link=<?= $site['host'] ?>/register.php?aff=<?= $row_getuser['member_login'] ?>" style="    text-decoration: none;cossslor: white" target="b_">
+                                            <a class="afflink2" href="fb-messenger://share/?link=<?=$aff_link?>" style="    text-decoration: none;cossslor: white" target="b_">
                                                 <img src="<?= $site['host'] ?>/assets/sag66/images/facebook-messenger-icon.png" style="max-width: 80%;width: 100px;">
                                                 <br>แนะนำผ่าน Messenger
                                             </a>
@@ -202,7 +202,7 @@ $row_getuser = $mysqli->query($sql_text)->fetch_assoc();
                                     </td>
                                     <td class="tt_l tt_full fr_tx1" style="width: 33%;colzzor: white; border: none;">
                                         <center>
-                                            <a class="afflink3" href="https://www.facebook.com/sharer/sharer.php?u=<?= $site['host'] ?>/register.php?aff=<?= $row_getuser['member_login'] ?>" style="    text-decoration: none;colossr: white" target="b_">
+                                            <a class="afflink3" href="https://www.facebook.com/sharer/sharer.php?u=<?=$aff_link?>" style="    text-decoration: none;colossr: white" target="b_">
                                                 <img src="<?= $site['host'] ?>/assets/sag66/images/facebook_circle-512.png" style="max-width: 80%;width: 100px;">
                                                 <br>แนะนำผ่าน Facebook
                                             </a>

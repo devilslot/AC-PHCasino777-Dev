@@ -16,7 +16,11 @@ $m_site = $mysqli->query("SELECT * FROM m_site WHERE 1")->fetch_assoc();
 
 <head>
     <link rel="stylesheet" href="<?= $site['host'] ?>/assets/css/m-site.css">
-
+    <style>
+        .nowrap {
+            white-space: nowrap;
+        }
+    </style>
 </head>
 
 <body>
@@ -54,13 +58,13 @@ $m_site = $mysqli->query("SELECT * FROM m_site WHERE 1")->fetch_assoc();
         <label for="js_url">JS Url</label><input type="text" name="js_url" id="js_url" value="<?= $m_site['js_url'] ?>" size="50" />
         <br class="clear" />
 
-        <label for="countdown_refresh_aff">Countdown Refresh Aff (second) </label><input type="text" name="countdown_refresh_aff" id="countdown_refresh_aff" value="<?= $m_site['countdown_refresh_aff'] ?>" size="10" />
+        <label for="countdown_refresh_aff" class="nowrap">Countdown Refresh Aff (second) </label><input type="text" name="countdown_refresh_aff" id="countdown_refresh_aff" value="<?= $m_site['countdown_refresh_aff'] ?>" size="10" />
         <br class="clear" />
 
-        <label for="aff_comm_level_1">Aff Comm Level 1 (%)</label><input type="text" name="aff_comm_level_1" id="aff_comm_level_1" value="<?= $m_site['aff_comm_level_1'] ?>" size="10" />
+        <label for="aff_comm_level_1">Aff Comm Level 1 (%) </label><input type="text" name="aff_comm_level_1" id="aff_comm_level_1" value="<?= $m_site['aff_comm_level_1'] ?>" size="10" />
         <br class="clear" />
 
-        <label for="aff_comm_level_2">Aff Comm Level 2 (%)</label><input type="text" name="aff_comm_level_2" id="aff_comm_level_2" value="<?= $m_site['aff_comm_level_2'] ?>" size="10" />
+        <label for="aff_comm_level_2">Aff Comm Level 2 (%) </label><input type="text" name="aff_comm_level_2" id="aff_comm_level_2" value="<?= $m_site['aff_comm_level_2'] ?>" size="10" />
         <br class="clear" />
         <button type="submit">Submit</button>
     </form>
