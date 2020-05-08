@@ -1,5 +1,8 @@
 <?php
 
+$site = include(__DIR__ . '/config/site.php');
+$pg = include(__DIR__ . '/config/pg.php');
+
 $logged_in = FALSE;
 
 if (!isset($_SESSION['member_login'])) {
