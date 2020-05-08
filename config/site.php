@@ -17,7 +17,8 @@ return array(
 	'aff_comm_level_1' => $m_site['aff_comm_level_1'],
 	'aff_comm_level_2' => $m_site['aff_comm_level_2'],
 	'title' => $m_site['title'],
-	'text_marquee' => $m_site['text_marquee']
+	'text_marquee' => $m_site['text_marquee'],
+	'aff_min_claim' => $m_site['aff_min_claim']
 );
 
 

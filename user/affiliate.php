@@ -113,29 +113,23 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
         <section id="post-1" class="post-1 post type-post status-publish format-standard hentry category-home">
             <h1 class="entry-title"><span class="icon-bar"></span>แนะนำเพื่อน รับทันที <?= $site['aff_comm_level_1'] ?>% ของยอดได้เสียของคนแนะนำ</h1>
 
-
-
             <div class="col-md-12 xcol-md-offsetx-2">
                 <div class="card card-primary">
-                    <div class="card-header ]-info" style="background: #479988; color: white">
-                        แนะนำเพื่อน อัพเดทล่าสุด 2020-02-04 08:36:50 </div>
+                    <div id='last_refresh' class="card-header ]-info" style="background: #479988; color: white"></div>
                     <div class="card-body">
 
-
-                        <!-- <div id="linkaff_" style="display: none;"><?=$aff_link?></div> -->
+                        <!-- <div id="linkaff_" style="display: none;"><?= $aff_link ?></div> -->
                         <form method="POST">
                             <input type="hidden" name="task" value="aff_to">
                             <div class="form-group row">
                                 <label for="staticEmail" class="col-sm-2 col-form-label">Link แนะนำ </label>
                                 <div class="col-sm-8">
-                                    <input type="text" class="form-control" id="aff_link" value="<?=$aff_link?>" readonly="readonly" onclick="cpToClipboard()">
+                                    <input type="text" class="form-control" id="aff_link" value="<?= $aff_link ?>" readonly="readonly" onclick="cpToClipboard()">
                                 </div>
                                 <div class="col-sm-2">
                                     <a style="displayx: none; color: white" class="btn btn-block btn-dark-green btn- lg btn-co py ml-0" onclick="cpToClipboard()"><i class="far fa-copy"></i> คัดลอก link</a>
                                 </div>
                             </div>
-
-
 
                             <div class="form-group row">
                                 <label for="staticEmail" class="col-sm-2 col-form-label">จำนวนเพื่อนที่แนะนำ ลำดับที่ 1</label>
@@ -155,20 +149,20 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                                 <label for="staticEmail" class="col-sm-2 col-form-label">จำนวนเครดิตแนะนำ</label>
                                 <div class="col-sm-10">
                                     <input type="text" id="aff_total" class="form-control" readonly="readonly">
+                                    <div id="claim_aff"></div>
                                 </div>
                             </div>
 
                             <center>
-                                <button type="button" class="btn btn-danger" onclick="getAffInfo();" style=" font-size: 18px;">อัพเดตยอดแนะนำ</button>
-                                <div id="countDownDiv" />
+                                <button type="button" class="btn btn-danger" onclick="getAffInfo();" style=" font-size: 18px;"><i class="fas fa-sync fa-spin fa-1x" aria-hidden="true"></i> อัพเดตยอดแนะนำ</button>
+                                <!-- <div id="countDownDiv" /> -->
+                                <!-- <label id='refreshCountdown' style="background-color: #2196F3; color: white; padding: 8px; font-family: Arial;"></label> -->
                                 <!-- id="aff_refresh" -->
                             </center>
                             <br>
-
-                            <center> <b style="color: red">ต้องมี จำนวนเครดิตแนะนำ มากกว่า 500 จะโอนเงินเข้ากระเป๋าหลักได้คะ</b></center>
-
-
-
+                            <center>
+                                <!-- <div id="claim_aff"></div> -->
+                            </center>
                         </form>
 
                         <center style=" : none;"><a href="banner.php" class="btn btn-info" style="color: white; font-size: 18px; margin-top: 5px;"> &gt;&gt; รับ banner ไปโปรโมท &lt;&lt; </a></center>
@@ -186,7 +180,7 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                                 <tr>
                                     <td class="tt_l tt_full fr_tx1" style="width: 33%;colzozr: white; border: none;">
                                         <center>
-                                            <a class="afflink1" href="https://social-plugins.line.me/lineit/share?url=<?=$aff_link?>" style="    text-decoration: none;colssor: white" target="b_">
+                                            <a class="afflink1" href="https://social-plugins.line.me/lineit/share?url=<?= $aff_link ?>" style="    text-decoration: none;colssor: white" target="b_">
                                                 <img src="<?= $site['host'] ?>/assets/sag66/images/line-icon.png" style="max-width: 80%;width: 100px;">
                                                 <br>แนะนำผ่าน LINE
                                             </a>
@@ -194,7 +188,7 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                                     </td>
                                     <td class="tt_l tt_full fr_tx1" style="width: 33%;cozlozr: white; border: none;">
                                         <center>
-                                            <a class="afflink2" href="fb-messenger://share/?link=<?=$aff_link?>" style="    text-decoration: none;cossslor: white" target="b_">
+                                            <a class="afflink2" href="fb-messenger://share/?link=<?= $aff_link ?>" style="    text-decoration: none;cossslor: white" target="b_">
                                                 <img src="<?= $site['host'] ?>/assets/sag66/images/facebook-messenger-icon.png" style="max-width: 80%;width: 100px;">
                                                 <br>แนะนำผ่าน Messenger
                                             </a>
@@ -202,7 +196,7 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                                     </td>
                                     <td class="tt_l tt_full fr_tx1" style="width: 33%;colzzor: white; border: none;">
                                         <center>
-                                            <a class="afflink3" href="https://www.facebook.com/sharer/sharer.php?u=<?=$aff_link?>" style="    text-decoration: none;colossr: white" target="b_">
+                                            <a class="afflink3" href="https://www.facebook.com/sharer/sharer.php?u=<?= $aff_link ?>" style="    text-decoration: none;colossr: white" target="b_">
                                                 <img src="<?= $site['host'] ?>/assets/sag66/images/facebook_circle-512.png" style="max-width: 80%;width: 100px;">
                                                 <br>แนะนำผ่าน Facebook
                                             </a>
@@ -211,9 +205,6 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                                 </tr>
                             </tbody>
                         </table>
-
-
-
 
                         <p style="  color: black"><b style="font-size: 22px; color: black">ลิ้งค์ช่วยแชร์รับ <span style="color: red;font-size: 22px;"><?= $site['aff_comm_level_1'] ?>% </span> ฟรี </b> (แค่ก๊อปปี้ลิ้งค์ไปแชร์ก็ได้เงินแล้ว) ยิ่งแชร์มากยิ่งได้มาก<br><br>
                             <b style="font-size: 15px;color: black"> ท่านสามารถนำลิ้งค์ด้านล่างนี้หรือนำป้ายแบนเนอร์ ไปแชร์ในช่องทางต่างๆ ไม่ว่าจะเป็น เว็บไชต์ส่วนตัว, Blog, Facebook หรือ Social Network อื่นๆ หากมีการสมัครสมาชิกโดยคลิกผ่านลิ้งค์ของท่านเข้ามา ลูกค้าที่สมัครเข้ามาก็จะอยู่ภายให้เครือข่ายของท่านทันที และหากลูกค้าภายใต้เครือข่ายของท่านมีการเดิมพันเข้ามา ทุกยอดการเดิมพัน ท่านจะได้รับส่วนแบ่งในการแนะนำ <?= $site['aff_comm_level_1'] ?>% ทันทีโดยไม่มีเงื่อนไข</b>
@@ -277,7 +268,7 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
             </div>
         </section>
     </footer>
-    <div class="modal fade" id="notice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <!-- <div class="modal fade" id="notice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">ประกาศ
@@ -290,7 +281,7 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
@@ -340,10 +331,6 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
     </script> -->
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
-    <script>
-
-    </script>
-
 
     <script>
         function getAffInfo() {
@@ -353,14 +340,20 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                 url: "<?= $site['host'] ?>/exec/aff-calculate.php",
                 dataType: "json"
             }).done(function(data) {
-                var nxx = numeral(data.level2).format('0,0.00');
+                // var nxx = numeral(data.level2).format('0,0.00');
                 document.getElementById("aff_total").value = numeral(data.total_comm).format('0,0.00');
-                document.getElementById("count_l1").value = data.count_l1 + " คน";
-                document.getElementById("count_l2").value = data.count_l2 + " คน";
+                document.getElementById("count_l1").value = data.count_l1 + " คน (" + numeral(data.aff_turnover_l1).format('0,0.00') + ")";
+                document.getElementById("count_l2").value = data.count_l2 + " คน (" + numeral(data.aff_turnover_l2).format('0,0.00') + ")";
+                document.getElementById("last_refresh").innerHTML = "แนะนำเพื่อน อัพเดตล่าสุด : " + data.last_refresh;
+                if (data.total_comm <= <?= $site['aff_min_claim'] ?>) {
+                    document.getElementById("claim_aff").innerHTML = '<b style="color: red ">ต้องมี จำนวนเครดิตแนะนำ มากกว่า 500 จะโอนเงินเข้ากระเป๋าหลักได้คะ</b><BR><BR>';
+                } else {
+                    document.getElementById("claim_aff").innerHTML = '<button type="button" class="btn btn-success" onclick="getAffInfo();" style=" font-size: 14px;">โอนเงินเข้ากระเป๋าหลัก</button>';
+                }
 
                 let timerInterval;
                 Swal.fire({
-                    title: 'กำลังอัพเดทยอดแนะนำ รอซักครู่ค่ะ',
+                    title: 'กำลังอัพเดตยอดแนะนำ รอซักครู่ค่ะ',
                     timer: 2000,
                     timerProgressBar: true,
                     onBeforeOpen: () => {
@@ -376,47 +369,28 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
                         // window.location.href = "<?= $site['host'] ?>/user/dashboard";
                     }
                 })
+
             });
 
             setTimeout(function() {
-                // count_down--;
-                // document.getElementById("count_down").innerHTML = count_down;
                 getAffInfo();
-
-            }, 1000 * countDown(<?=$site['countdown_refresh_aff']?>));
+            }, 1000 * <?= $site['countdown_refresh_aff'] ?>);
 
         }
     </script>
 
     <script>
         function countDown(i) {
-            var int = setInterval(function() {
+            setInterval(function() {
                 document.getElementById("countDownDiv").innerHTML = i;
+                // document.getElementById("refreshCountdown").innerHTML = i;
                 i-- || clearInterval(int); //if i is 0, then stop the interval
             }, 1000);
-            return i;
+            return 0;
         }
     </script>
 
-
-    <script>
-        function cpToClipboard() {
-            /* Get the text field */
-            var copyText = document.getElementById("aff_link");
-
-            /* Select the text field */
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-            /* Copy the text inside the text field */
-            document.execCommand("copy");
-
-            /* Alert the copied text */
-            // alert("คัดลอก Link แนะนำสำเร็จแล้ว \r\n\r\n" + copyText.value);
-            swal.fire('คัดลอก Link แนะนำสำเร็จแล้ว', copyText.value, 'success');
-        }
-
-
+    <!-- <script>
         function CopyToClipboard(containerid) {
             if (document.selection) {
                 var range = document.body.createTextRange();
@@ -441,7 +415,7 @@ $aff_link = $site['host'] . "/register?aff=" . $row_getuser['member_login'];
             $temp.remove();
             alert("คัดลอกเลขบัญชีสำเร็จแล้ว")
         }
-    </script>
+    </script> -->
 
     <!-- 
     <script type="text/javascript">

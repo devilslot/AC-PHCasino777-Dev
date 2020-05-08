@@ -24,10 +24,10 @@ $m_affiliate = $mysqli->query($sql);
 $aff_level = $m_affiliate->num_rows;   //Affiliate level 
 // echo "num_rows : $aff_level<BR><BR>";
 
-foreach ($m_affiliate as $rows) {
-    // echo "<pre>" . json_encode($rows) . "</pre>";
-    // echo "<pre>" . print_r($rows) . "</pre>";
-}
+// foreach ($m_affiliate as $rows) {
+//     echo "<pre>" . json_encode($rows) . "</pre>";
+//     echo "<pre>" . print_r($rows) . "</pre>";
+// }
 
 $member_no = $_SESSION['member_no'];
 $errorCode = 0;
@@ -43,10 +43,12 @@ $aff_turnover_l1 = 0;
 $aff_turnover_l2 = 0;
 $count_level_1 = 0;
 $count_level_2 = 0;
+$last_refresh = NULL;
 
 foreach ($aff_branch_level_1 as $rows_l1) {
     $sql = "SELECT * FROM aff_branch WHERE aff_level_1='" . $rows_l1['aff_level_2'] . "'";
     // echo "Level 2 : " . $sql . "<BR><BR>";
+    $last_refresh = $rows_l1['last_refresh'];
     $aff_turnover_l1 += $rows_l1['grand_total_turnover'];
     $count_level_1++;
     // Get data AFF level 2
@@ -88,6 +90,7 @@ echo json_encode(['level1_comm' => $comm_l1,
                   'total_comm' => $total_comm,
                   'aff_turnover_l1' => $aff_turnover_l1,
                   'aff_turnover_l2' => $aff_turnover_l2,
+                  'last_refresh' => $last_refresh,
                   'code' => $errorCode,
                   'msg' => $errorMSG
                 ]);
