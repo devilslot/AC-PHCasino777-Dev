@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include(__DIR__ . '/../checklogin.php');
 
 require_once '../dbmodel.php';
 require_once '../function.php';
@@ -18,9 +19,6 @@ $pg = include(__DIR__ . '/../config/pg.php');
 //print_r($bank_list);
 //echo 'num_row : ' . $bank_list->num_rows;
 
-
-include(__DIR__ . '/../checklogin.php');
-
 $sql_text = "SELECT * FROM members WHERE member_login='" . trim($_SESSION['member_login']) . "'";
 $row_getuser = $mysqli->query($sql_text)->fetch_assoc();
 
@@ -33,6 +31,7 @@ if ((count($row_getuser)) > 0) {
     echo "<script>window.location.href = '" . $site['host'] . "'</script>";
 }
 
+$_SESSION['member_no'] = $row_getuser['member_no'];
 //console_log($site['host']);
 
 ?>

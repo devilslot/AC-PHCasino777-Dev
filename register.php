@@ -209,7 +209,7 @@ $aff_upline = $_GET['aff'];
                                 let timerInterval
                                 Swal.fire({
                                     title: 'สมัครสมาชิกเรียบร้อย!!!<BR><BR>ยินดีต้อนรับสมาชิกใหม่ค่ะ<BR>',
-                                    html: '<img src="http://ac-dev.myserver.local/assets/sl66/images/right-bar-aff.gif"><BR><BR>กำลังเข้าสู่เว็บไซต์...',
+                                    html: '<img src="<?=$site['host']?>/assets/sl66/images/right-bar-aff.gif"><BR><BR>กำลังเข้าสู่เว็บไซต์...',
                                     timer: 3000,
                                     timerProgressBar: true,
                                     onBeforeOpen: () => {

@@ -37,6 +37,7 @@ if (empty($_POST['username'])) {
     $row = $result->fetch_assoc();
     $_SESSION['username'] = $row['member_username'];
     $_SESSION['member_login'] = $row['member_login'];
+    $_SESSION['member_no'] = $row['member_no'];
     echo "<script>window.location = '/user/dashboard'</script>";
 }
 
